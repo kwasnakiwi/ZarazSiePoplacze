@@ -72,7 +72,7 @@ function HomePage() {
           <h3>Godziny otwarcia</h3>
           <ul className="opening-hours-list">
             <li className="opening-hours-line">Pn-Czw 13:00 - 21:00</li>
-            <li className="opening-hours-line">Pt-Ndz 12:00 - 23:00</li>
+            
           </ul>
         </div>
       </div>
