@@ -5,7 +5,7 @@ function HomePage() {
       <div className="offer">
         <h2 className="offers-title">NOWOŚCI</h2>
         <div className="text-n-image">
-          <img src="src/assets/images/pinkpizza.png"/>
+          <img src="/src/assets/images/pinkpizza.png"/>
           <div className="offer-text">
             <h3>PINK PIZZA</h3>
             <p>
@@ -17,7 +17,7 @@ function HomePage() {
       <div className="offer">
         <h2 className="offers-title">SUPER PROMOCJE</h2>
         <div className="text-n-image">
-          <img src="src/assets/images/jakaspizza.png"/>
+          <img src="/src/assets/images/jakaspizza.png"/>
           <div className="offer-text">
             <h3>3 W cenie 2</h3>
             <p>
@@ -32,7 +32,7 @@ function HomePage() {
     <div className="meet-us">
       <h2 className="title">POZNAJ NAS I NASZ LOKAL</h2>
       <div className="meet-us-line">
-        <img src="src/assets/images/Zdjęcie.png"/>
+        <img src="/src/assets/images/Zdjęcie.png"/>
         <div className="meet-us-text">
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>
@@ -46,16 +46,16 @@ function HomePage() {
       <div className="meals-box">
         <div className="meals">
           <div className="meal">
-            <img src="src/assets/images/Zdjęcie2.png"/>
+            <img src="/src/assets/images/Zdjęcie2.png"/>
           </div>
           <div className="meal">
-            <img src="src/assets/images/Zdjęcie2.png"/>
+            <img src="/src/assets/images/Zdjęcie2.png"/>
           </div>
           <div className="meal">
-            <img src="src/assets/images/Zdjęcie2.png"/>
+            <img src="/src/assets/images/Zdjęcie2.png"/>
           </div>
           <div className="meal">
-            <img src="src/assets/images/Zdjęcie2.png"/>
+            <img src="/src/assets/images/Zdjęcie2.png"/>
           </div>
         </div>
       </div>
@@ -63,11 +63,11 @@ function HomePage() {
     <div className="enjoy-container">
       <h2 className="title">Zapraszamy już dziś!</h2>
       <div className="enjoy-image-text">
-        <img className="image1" src="src/assets/images/Zdjęcie3.png"/>
+        <img className="image1" src="/src/assets/images/Zdjęcie3.png"/>
         <div className="enjoy-text">
           <h4 className="just-eat-h4">Zamów Teraz na Pyszne.pl – Twoja Ulubiona Pizza w Zasięgu Kliknięcia!</h4>
           <ul className="enjoy-list">
-            <li className="enjoy-list-line"><div className="enjoy-div"><img src="src/assets/images/star-full-icon.png"/><span>4.3</span></div><button className="just-eat-btn">Przejdź do Pyszne.pl</button></li>
+            <li className="enjoy-list-line"><div className="enjoy-div"><img src="/src/assets/images/star-full-icon.png"/><span>4.3</span></div><button className="just-eat-btn">Przejdź do Pyszne.pl</button></li>
           </ul>
           <h3>Godziny otwarcia</h3>
           <ul className="opening-hours-list">
