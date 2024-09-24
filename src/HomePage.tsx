@@ -1,6 +1,7 @@
 import zdjecie2 from './assets/images/Zdjęcie2.png';
 import jakaspizza from './assets/images/jakaspizza.png';
 import pinkpizza from './assets/images/pinkpizza.png';
+import zdjecie3 from './src/assets/images/Zdjęcie3.png';
 
 function HomePage() {
     return (
@@ -54,13 +55,13 @@ function HomePage() {
                 <img src={zdjecie2} alt=""/>
               </div>
               <div className="meal">
-                <img src="/src/assets/images/Zdjęcie2.png"/>
+                <img src={zdjecie2}/>
               </div>
               <div className="meal">
-                <img src="/src/assets/images/Zdjęcie2.png"/>
+                <img src={zdjecie2}/>
               </div>
               <div className="meal">
-                <img src="/src/assets/images/Zdjęcie2.png"/>
+                <img src={zdjecie2}/>
               </div>
             </div>
           </div>
@@ -68,7 +69,7 @@ function HomePage() {
         <div className="enjoy-container">
           <h2 className="title">Zapraszamy już dziś!</h2>
           <div className="enjoy-image-text">
-            <img className="image1" src="/src/assets/images/Zdjęcie3.png"/>
+            <img className="image1" src={zdjecie3}/>
             <div className="enjoy-text">
               <h4 className="just-eat-h4">Zamów Teraz na Pyszne.pl – Twoja Ulubiona Pizza w Zasięgu Kliknięcia!</h4>
               <ul className="enjoy-list">
