@@ -1,7 +1,7 @@
 import zdjecie2 from './assets/images/Zdjęcie2.png';
 
 function HomePage() {
-    return <section className="center-container">
+    return (<section className="center-container">
     <div className="web-image"></div>
     <div className="offers">
       <div className="offer">
@@ -79,7 +79,7 @@ function HomePage() {
         </div>
       </div>
     </div>
-    </section>
+    </section>)
 }
 
 export default HomePage
