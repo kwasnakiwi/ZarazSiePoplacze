@@ -2,6 +2,8 @@ import zdjecie2 from './assets/images/Zdjęcie2.png';
 import jakaspizza from './assets/images/jakaspizza.png';
 import pinkpizza from './assets/images/pinkpizza.png';
 import zdjecie3 from './assets/images/Zdjęcie3.png';
+import zdjecie from "./assets/images/Zdjęcie.png";
+import star from "./assets/images/star-full-icon.png";
 
 function HomePage() {
     return (
@@ -29,7 +31,7 @@ function HomePage() {
                 <p>
                   Z przyjemnością informujemy, że 
                   od 01.08 do 14.08 mamy super promocję na pyszne.pl
-                  Kup dwie duże pizze a małą Margherite dostaniesz gratis
+                  Kup dwie duże pizze a małą 
                 </p>
               </div>
             </div>
@@ -38,9 +40,9 @@ function HomePage() {
         <div className="meet-us">
           <h2 className="title">POZNAJ NAS I NASZ LOKAL</h2>
           <div className="meet-us-line">
-            <img src="/src/assets/images/Zdjęcie.png"/>
+            <img src={zdjecie}/>
             <div className="meet-us-text">
-              <h3>Lorem ipsum dolor sit amet</h3>
+              <h3>Lorem ipsum dolor sit amel</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Nec molestie luctus egestas pretium pellentesque nisl sollicitudin sed et. Magna gravida sed tellus posuere nibh diam adipiscing id. Maecenas amet vulputate in justo facilisis. Odio varius vitae facilisis dapibus. Etiam eu lectus consequat sit porttitor. Enim morbi nulla nisi varius. 
               </p>
@@ -73,7 +75,7 @@ function HomePage() {
             <div className="enjoy-text">
               <h4 className="just-eat-h4">Zamów Teraz na Pyszne.pl – Twoja Ulubiona Pizza w Zasięgu Kliknięcia!</h4>
               <ul className="enjoy-list">
-                <li className="enjoy-list-line"><div className="enjoy-div"><img src="/src/assets/images/star-full-icon.png"/><span>4.3</span></div><button className="just-eat-btn">Przejdź do Pyszne.pl</button></li>
+                <li className="enjoy-list-line"><div className="enjoy-div"><img src={star}/><span>4.3</span></div><button className="just-eat-btn">Przejdź do Pyszne.pl</button></li>
               </ul>
               <h3>Godziny otwarcia</h3>
               <ul className="opening-hours-list">
