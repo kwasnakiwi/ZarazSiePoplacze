@@ -1,3 +1,5 @@
+import zdjecie2 from './assets/images/Zdjęcie2.png';
+
 function HomePage() {
     return <section className="center-container">
     <div className="web-image"></div>
@@ -46,7 +48,7 @@ function HomePage() {
       <div className="meals-box">
         <div className="meals">
           <div className="meal">
-            <img src="/src/assets/images/Zdjęcie2.png"/>
+            <img src={zdjecie2} alt=""/>
           </div>
           <div className="meal">
             <img src="/src/assets/images/Zdjęcie2.png"/>
