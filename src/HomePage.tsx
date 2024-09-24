@@ -55,13 +55,13 @@ function HomePage() {
                 <img src={zdjecie2} alt=""/>
               </div>
               <div className="meal">
-                <img src={zdjecie2}/>
+                <img src={zdjecie2} alt=""/>
               </div>
               <div className="meal">
-                <img src={zdjecie2}/>
+                <img src={zdjecie2} alt=""/>
               </div>
               <div className="meal">
-                <img src={zdjecie2}/>
+                <img src={zdjecie2} alt=""/>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ function HomePage() {
         <div className="enjoy-container">
           <h2 className="title">Zapraszamy już dziś!</h2>
           <div className="enjoy-image-text">
-            <img className="image1" src={zdjecie3}/>
+            <img className="image1" src={zdjecie3} alt=""/>
             <div className="enjoy-text">
               <h4 className="just-eat-h4">Zamów Teraz na Pyszne.pl – Twoja Ulubiona Pizza w Zasięgu Kliknięcia!</h4>
               <ul className="enjoy-list">
