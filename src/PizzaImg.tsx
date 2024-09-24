@@ -1,9 +1,10 @@
+import pizzza from "src/assets/images/pizzza.png" ;
 import { useNavigate } from 'react-router-dom';
 function PizzaImg() {
     const navigate = useNavigate();
 
     return <div className="pizza-menu">
-    <img src="src/assets/images/pizzza.png" useMap="#image-map"/>
+    <img src={pizzza} useMap="#image-map"/>
     <map name="image-map">
          <area style={{cursor: 'pointer'}} target="" alt="pizza-menu" title="pizza-menu" onClick={() => navigate('/menu2')} coords="43,615,370,441,40,267,30,448,32,489" shape="poly"/>
          <area style={{cursor: 'pointer'}} target="" alt="przystawki-menu" title="przystawki-menu" onClick={() => navigate('/menu3')} coords="370,93,258,103,176,147,87,243,375,418" shape="poly"/>

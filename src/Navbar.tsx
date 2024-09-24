@@ -1,10 +1,11 @@
+import pizzalogo from"/src/assets/images/pizza-logo.png";
 import { Link } from 'react-router-dom';
 
 function Navbar() {
     return <div className="navbar">
         <nav>
         <ul className="navbar-list">
-            <li className="navbar-line"><Link to="/"><img src="/src/assets/images/pizza-logo.png" alt="logo"/></Link></li>
+            <li className="navbar-line"><Link to="/"><img src={pizzalogo} alt="logo"/></Link></li>
             <li className="navbar-line"><Link to="/menu1">MENU</Link></li>
             <li className="navbar-line"><Link to="/about_us">O NAS</Link></li>
             <li className="navbar-line"><a>KONTAKT</a></li>
