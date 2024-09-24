@@ -1,4 +1,4 @@
-import pizzza from "src/assets/images/pizzza.png" ;
+import pizzza from './src/assets/images/pizzza.png' ;
 import { useNavigate } from 'react-router-dom';
 function PizzaImg() {
     const navigate = useNavigate();

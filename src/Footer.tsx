@@ -1,7 +1,10 @@
+import footercircle from "./src/assets/images/footer-circle.png";
+import footerdownphoto from "./src/assets/images/ig-square.png";
+
 function Footer() {
     return <div className="footer">
             <ul className="footer-list">
-                <li className="footer-list-line"><img src="src/assets/images/footer-circle.png"/></li>
+                <li className="footer-list-line"><img src={footercircle}/></li>
                 <li className="footer-list-line">Blasdalskfiflakslfsal;fkasl;fa</li>
                 <li className="footer-list-line">fikasfg;pdsojgsdo;g;a</li>
             </ul>
@@ -17,7 +20,7 @@ function Footer() {
                 <li className="footer-list-line">Miasto</li>
                 <li className="footer-list-line">Mail</li>
                 <li className="footer-list-line">Telefon</li>
-                <li className="footer-list-line"><img src="src/assets/images/ig-square.png" alt="ig"/><img src="src/assets/images/ig-square.png" alt="fb"/></li>
+                <li className="footer-list-line"><img src={footerdownphoto} alt="ig"/><img src={footerdownphoto} alt="fb"/></li>
             </ul>
         </div>
 }
