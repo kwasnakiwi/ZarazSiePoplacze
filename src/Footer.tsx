@@ -1,5 +1,5 @@
-import footercircle from "./src/assets/images/footer-circle.png";
-import footerdownphoto from "./src/assets/images/ig-square.png";
+import footercircle from "./assets/images/footer-circle.png";
+import footerdownphoto from "./assets/images/ig-square.png";
 
 function Footer() {
     return <div className="footer">

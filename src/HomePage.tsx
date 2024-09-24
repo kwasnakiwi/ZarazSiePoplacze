@@ -1,7 +1,7 @@
 import zdjecie2 from './assets/images/Zdjęcie2.png';
 import jakaspizza from './assets/images/jakaspizza.png';
 import pinkpizza from './assets/images/pinkpizza.png';
-import zdjecie3 from './src/assets/images/Zdjęcie3.png';
+import zdjecie3 from './assets/images/Zdjęcie3.png';
 
 function HomePage() {
     return (

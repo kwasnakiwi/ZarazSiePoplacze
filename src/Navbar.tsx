@@ -1,4 +1,4 @@
-import pizzalogo from'./src/assets/images/pizza-logo.png';
+import pizzalogo from'./assets/images/pizza-logo.png';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
