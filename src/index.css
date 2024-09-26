@@ -284,14 +284,14 @@ a{
 }
 .pizza-text2{
   transform:
-  translateX(-130px)
-  translateY(-450px)
+  translateX(-120px)
+  translateY(-440px)
   rotate(-30deg);
 }
 .pizza-text3{
   transform:
-  translateX(122px)
-  translateY(-500px)
+  translateX(115px)
+  translateY(-490px)
   rotate(30deg);
 }
 .pizza-text4{
@@ -322,7 +322,7 @@ margin-bottom: -350px;
 .pizza-menu-down{
   display: flex;
   justify-content: center;
-  margin-top: -250px;
+  margin-top: -260px;
   margin-left: -5px;
 }
 .slice-box{
@@ -341,7 +341,7 @@ margin-bottom: -350px;
   display: flex;
   justify-content: center;
   transition: 0.5s;
-  margin-right: -140px;
+  margin-right: -160px;
 }
 .przystawki-box:hover{
   transform: translateY(-10px)
@@ -364,7 +364,7 @@ margin-bottom: -350px;
   scale: 0.5;
   display: flex;
   justify-content: center;
-  margin-right: -125px;
+  margin-right: -135px;
 }
 .pizza-box:hover{
   transform: translateX(-10px);
@@ -661,6 +661,12 @@ margin-bottom: -350px;
   .about-restaurant{
     text-align: center;
   }
+  .menu-item{
+    width: 500px;
+  }
+  .menu-items{
+    gap: 35px;
+  }
 }
 @media (max-width: 1480px){
   .meet-us-line{
@@ -675,13 +681,7 @@ margin-bottom: -350px;
   .drink-menu{
       width: 400px;
   }
-  .menu-item-name{
-      font-size: 40px;
-      margin-bottom: 10px;
-  }
-  .menu-item-description{
-      font-size: 20px;
-  }
+
 }
 @media (max-width: 1440px){
   .enjoy-image-text{
@@ -704,6 +704,14 @@ margin-bottom: -350px;
   .about-restaurant-p{
     font-size: 20px;
   }
+  .menu-items{
+    display: block;
+}
+.menu-item{
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
 }
 @media (max-width: 1300px){
   .meet-us-line{
@@ -712,6 +720,7 @@ margin-bottom: -350px;
   }
   .menu-item-name{
       font-size: 25px;
+      height: 50px;
   }
 }
 @media (max-width: 1240px){
@@ -747,14 +756,7 @@ margin-bottom: -350px;
   .offers{
       display: block;
   }
-  .menu-items{
-      display: block;
-  }
-  .menu-item{
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-  }
+
   .footer{
     display: block;
     text-align: center;
@@ -805,6 +807,71 @@ margin-bottom: -350px;
 @media (max-width: 750px){
   .image1{
       width: 350px;
+  }
+  .menu-item{
+    width: 250px;
+  }
+  .menu-item-description{
+    font-size: 15px;
+  height: 20px;
+  }
+  .menu-item-name{
+    font-size: 20px;
+  }
+  .pizza-box,
+  .przystawki-box,
+  .salads-box,
+  .drinks-box{
+    scale: 0.25;
+  }
+  .przystawki-box{
+    margin-right: -250px;
+  }
+  .pizza-box{
+    margin-right: -260px;
+  }
+  .pizza-menu-down{
+    margin-top: -310px;
+    margin-left: -10px;
+  }
+  .UnoMomentoMenu{
+    font-size: 15px;
+    transform: translateY(-250px);
+  }
+  .pizza-menu-down,
+  .pizza-menu-up{
+    margin-right: -10px;
+  }
+  .pizza-text{
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .pizza-menu{
+    margin-bottom: -250px;
+  }
+  .pizza-text1{
+    transform: 
+    translateX(-110px)
+    translateY(-190px)
+    rotate(-90deg);
+  }
+  .pizza-text2{
+    transform: 
+    translateY(-315px)
+    translateX(-55px)
+    rotate(-30deg);
+  }
+  .pizza-text3{
+    transform: 
+    translateY(-335px)
+    translateX(60px)
+    rotate(30deg);
+  }
+  .pizza-text4{
+    transform: 
+    translateY(-265px)
+    translateX(105px)
+    rotate(90deg);
   }
 }
 @media (max-width: 650px){
