@@ -349,7 +349,7 @@ function Menu5() {
           </div>
           <div className="menu-item">
             <div className="menu-item-text">
-              <h3 id="menu-item-name-smaller">Żywiec 0% (malina z nutą trawy cytrynowej, cytryna z nutą coli)</h3>
+              <h3 className="menu-item-name">Żywiec 0% (malina z nutą trawy cytrynowej, cytryna z nutą coli)</h3>
               <h4 className="menu-item-price">500ml - 15zł</h4>
             </div>
           </div>
