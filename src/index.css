@@ -18,14 +18,7 @@ ul{
   text-align: center;
   position: fixed;
 }
-.navbar-span{
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 30px;
-  font-size: 30px;
-  display: none;
-  cursor: pointer;
-}
+
 .navbar-list{
   margin: 0;
   padding-top: 150px;
@@ -46,23 +39,98 @@ ul{
   padding-top: 200px;
   color: white;
 }
+/*navbar2*/
 .navbar2{
+  margin: 0;
+  padding: 0;
+  background-color: black;
   display: none;
-  width: 70px;
-  height: 1080px;
-  background: black;
-  color: white;
-  text-align: center;
-  position: fixed;
 }
-.navbar2-span{
+.navbar2-h3{
+  margin: 0;
+}
+.navbar2-list{
+  width: 100%;
+  list-style: none;
   display: flex;
-  font-size: 30px;
   justify-content: flex-end;
-  margin-right: 10px;
-  cursor: pointer;
+  margin: 0;
+  align-items: center;
+}
+.navbar2-line{
+  height: 100px;
+  color: white;
+}
+.navbar2 img{
+  width: 100px;
+}
+.navbar2 a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: Saira Condensed;
+  font-size: 17px;
+  font-weight: 400;
+}
+.navbar2 a:hover{
+  background-color: rgb(41, 41, 41);
+}
+.navbar2-line:first-child{
+  margin-right: auto;
+}
+/*navbar3*/
+.navbar3{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 40vh;
+  width: 50%;
+  z-index: 1000;
+  display: none;
+}
+.navbar3-list{
+  list-style: none;
+
+  width: 500px;
+  padding-left: 30%;
+}
+.navbar3 a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: Saira Condensed;
+  font-size: 17px;
+  font-weight: 400;
+}
+.navbar3-line{
+  padding-bottom: 25px;
+
 }
 
+.navbar3 img{
+  width: 100px;
+}
+.navbar3 a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: Saira Condensed;
+  font-size: 17px;
+  font-weight: 400;
+}
+/*homepage*/
 .web-image {
   background-image: url(/src/assets/images/Pizzeria.png);
   padding: 21em 5%;
@@ -261,7 +329,8 @@ a{
   font-size: 22px;
   font-weight: 400;
   letter-spacing: -0.05em;
-  transform: translateY(-360px);
+  transform: translateY(-360px)
+             translateX(12px);
   text-decoration: none;
   color: black;
   transition: 0.5s;
@@ -278,25 +347,25 @@ a{
 }
 .pizza-text1{
   transform:
-  translateX(-230px)
+  translateX(-218px)
   translateY(-210px)
   rotate(-90deg);
 }
 .pizza-text2{
   transform:
-  translateX(-120px)
+  translateX(-108px)
   translateY(-440px)
   rotate(-30deg);
 }
 .pizza-text3{
   transform:
-  translateX(115px)
+  translateX(127px)
   translateY(-490px)
   rotate(30deg);
 }
 .pizza-text4{
   transform:
-  translateX(220px)
+  translateX(232px)
   translateY(-345px)
   rotate(90deg);
 }
@@ -307,23 +376,26 @@ a{
   font-weight: 800;
   margin: 0;
   letter-spacing: 5px;
+
 }
 .pizza-menu {
 margin-bottom: -350px;
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 25%;
 
 }
 
 .pizza-menu-up{
   display: flex;
   justify-content: center;
+  transform: translateX(12px);
 }
 .pizza-menu-down{
   display: flex;
   justify-content: center;
   margin-top: -260px;
-  margin-left: -5px;
+  transform: translateX(12px);
+
 }
 .slice-box{
   width: 100px;
@@ -428,6 +500,7 @@ margin-bottom: -350px;
   font-size: 30px;
   font-weight: 400; 
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   text-align: center;
   height: 80px;
   margin: 0;
@@ -502,12 +575,15 @@ margin-bottom: -350px;
 
   margin-bottom: 100px;
 }
-.menu-items-title hr{
-  max-width: 555px;
+.menu-line{
+  max-width: 700px;
   border: 2px solid black;
   text-align: left;
   text-align: left;
   margin: 0;
+}
+.long-line{
+  max-width: 1150px;
 }
 #menu-item-name-smaller{
   font-family: Roboto Slab;
@@ -768,11 +844,24 @@ margin-bottom: -350px;
     width: 200px;
 }
 }
+@media (max-width: 1050px){
+  .navbar{
+      display: none;
+  }
+
+  .center-container{
+      margin-left: 0;
+  }
+  .navbar2{
+    display: flex;
+  }
+}
 @media (max-width: 1000px){
   .image1{
       width: 500px;
   }
 }
+
 @media (max-width: 920px){
   .meals{
       grid-template-columns: 1fr;
@@ -792,6 +881,9 @@ margin-bottom: -350px;
   }
   .about-team-title{
     font-size: 35px;
+  }
+  .hideOnMobile{
+    display: none;
   }
 }
 @media (max-width: 780px){
@@ -813,7 +905,7 @@ margin-bottom: -350px;
   }
   .menu-item-description{
     font-size: 15px;
-  height: 20px;
+  height: 40px;
   }
   .menu-item-name{
     font-size: 20px;
@@ -836,7 +928,8 @@ margin-bottom: -350px;
   }
   .UnoMomentoMenu{
     font-size: 15px;
-    transform: translateY(-250px);
+    transform: translateY(-250px)
+               translateX(12px);
   }
   .pizza-menu-down,
   .pizza-menu-up{
@@ -851,40 +944,35 @@ margin-bottom: -350px;
   }
   .pizza-text1{
     transform: 
-    translateX(-110px)
+    translateX(-98px)
     translateY(-190px)
     rotate(-90deg);
   }
   .pizza-text2{
     transform: 
     translateY(-315px)
-    translateX(-55px)
+    translateX(-43px)
     rotate(-30deg);
   }
   .pizza-text3{
     transform: 
     translateY(-335px)
-    translateX(60px)
+    translateX(72px)
     rotate(30deg);
   }
   .pizza-text4{
     transform: 
     translateY(-265px)
-    translateX(105px)
+    translateX(117px)
     rotate(90deg);
   }
+  .menu-item-price{
+    font-size: 15px;
+
+  }
+
 }
-@media (max-width: 650px){
-  .navbar{
-      display: none;
-  }
-  .navbar2{
-      display: block;
-  }
-  .center-container{
-      margin-left: 0;
-  }
-}
+
 @media (max-width: 665px){
   .menu-icons{
       grid-template-columns: 1fr 1fr;

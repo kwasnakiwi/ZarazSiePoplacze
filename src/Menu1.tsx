@@ -6,7 +6,7 @@ function Menu1() {
     <div className="menu-items-box">
       <div className="menu-items-title">
         <h2>Nowości oraz Rabaty</h2>
-        <hr/>
+        <hr className="menu-line"/>
       </div>
       <div className="menu-items">
         <div className="menu-items-column">

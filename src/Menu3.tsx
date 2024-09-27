@@ -5,7 +5,7 @@ function Menu3() {
     <div className="menu-items-box">
       <div className="menu-items-title">
         <h2>Antipasti | Przystawki</h2>
-        <hr/>
+        <hr className="menu-line"/>
       </div>
       <div className="menu-items">
         <div className="menu-items-column">
@@ -26,7 +26,7 @@ function Menu3() {
           <div className="menu-item">
             <div className="menu-item-text">
               <h3 className="menu-item-name">Deska wędlin</h3>
-              <p className="menu-item-description">Mortadella z pistacjami, szynka parmeńska, salami spinata piccante, salami Napoli, mini mozzarella, oliwki, miód</p>
+              <p className="menu-item-description">mortadella z pistacjami, szynka parmeńska, salami spinata piccante, salami Napoli, mini mozzarella, oliwki, miód</p>
               <h4 className="menu-item-price">99zł</h4>
             </div>
           </div>
@@ -35,14 +35,14 @@ function Menu3() {
           <div className="menu-item">
             <div className="menu-item-text">
               <h3 className="menu-item-name">Prosciutto con melone</h3>
-              <p className="menu-item-description">Szynka parmeńska, melon cantalouepe, sos balsamiczny, miód wielokwiatowy</p>
+              <p className="menu-item-description">szynka parmeńska, melon cantalouepe, sos balsamiczny, miód wielokwiatowy</p>
               <h4 className="menu-item-price">32zł</h4>
             </div>
           </div>
           <div className="menu-item">
             <div className="menu-item-text">
               <h3 className="menu-item-name">Prosciutto con melone</h3>
-              <p className="menu-item-description">Szynka parmeńska, melon cantalouepe, sos balsamiczny, miód wielokwiatowy</p>
+              <p className="menu-item-description">szynka parmeńska, melon cantalouepe, sos balsamiczny, miód wielokwiatowy</p>
               <h4 className="menu-item-price">32zł</h4>
             </div>
           </div>

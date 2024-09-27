@@ -73,9 +73,9 @@ function HomePage() {
           <div className="enjoy-image-text">
             <img className="image1" src={zdjecie3} alt=""/>
             <div className="enjoy-text">
-              <h4 className="just-eat-h4">Zamów Teraz na Pyszne.pl – Twoja Ulubiona Pizza w Zasięgu Kliknięcia!</h4>
+              <h4 className="just-eat-h4">Zamów teraz na Pyszne.pl – Twoja ulubiona pizza w zasięgu kliknięcia!</h4>
               <ul className="enjoy-list">
-                <li className="enjoy-list-line"><div className="enjoy-div"><img src={star}/><span>4.3</span></div><button className="just-eat-btn">Przejdź do Pyszne.pl</button></li>
+                <li className="enjoy-list-line"><div className="enjoy-div"><img src={star}/><span>4.5</span></div><button className="just-eat-btn">zamów teraz!</button></li>
               </ul>
               <h3>Godziny otwarcia</h3>
               <ul className="opening-hours-list">

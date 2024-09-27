@@ -4,7 +4,7 @@ import teamphoto from "./assets/images/team-photo.png";
 function AboutUs() {
     return <section className="center-container">
       <div className="about-title-box">
-        <h1 className="about-title">Witaj w Uno momento – Gdzie Każda Pizza Ma Swoje Początki</h1>
+        <h1 className="about-title">Witaj w Pizzerii Uno Momento – Twoje miejsce na prawdziwą, kulinarną ucztę!</h1>
       </div>
       <div className="about-restaurant">
         <img src={zdjecielokalu}/>

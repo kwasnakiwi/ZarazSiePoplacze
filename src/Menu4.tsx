@@ -5,7 +5,7 @@ function Menu4() {
     <div className="menu-items-box">
       <div className="menu-items-title">
         <h2>Insalata | Sałatki</h2>
-        <hr/>
+        <hr className="menu-line"/>
       </div>
       <div className="menu-items">
         <div className="menu-items-column">
@@ -19,7 +19,7 @@ function Menu4() {
           <div className="menu-item">
             <div className="menu-item-text">
               <h3 className="menu-item-name">Lazurowy Melon</h3>
-              <p className="menu-item-description">Roszponka, ser lazur, melon, szynka parmeńska, awokado, granat, oliwa z oliwek</p>
+              <p className="menu-item-description">roszponka, ser lazur, melon, szynka parmeńska, awokado, granat, oliwa z oliwek</p>
                 <h4 className="menu-item-price">40zł</h4>
             </div>
           </div>
@@ -28,7 +28,7 @@ function Menu4() {
           <div className="menu-item">
             <div className="menu-item-text">
               <h3 className="menu-item-name">Tuńczykowe Love</h3>
-              <p className="menu-item-description">Tuńczyk w kawałkach, papryka czerwona, kukurydza, ogórek konserwowy, mix sałat, musztarda, sczypiorek, oliwa z oliwek</p>
+              <p className="menu-item-description">tuńczyk w kawałkach, papryka czerwona, kukurydza, ogórek konserwowy, mix sałat, musztarda, sczypiorek, oliwa z oliwek</p>
                 <h4 className="menu-item-price">43zł</h4>
             </div>
           </div>
