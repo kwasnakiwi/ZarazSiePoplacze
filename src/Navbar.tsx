@@ -29,26 +29,19 @@ function Navbar() {
     navbar3.style.display = 'flex';
   }
 }
-}>E</a></li>
+}><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+</a></li>
           </ul>
         </div>
         <div className="navbar3">
-          <ul className='navbar3-list'>
-            <li className='navbar3-line'><a><img src={pizzalogo}/></a></li>
-            <li className='navbar3-line '><a>MENU</a></li>
-            <li className='navbar3-line '><a>O NAS</a></li>
-            <li className='navbar3-line '><a>KONTAKT</a></li>
-            <li className='navbar3-line '><a><h3 className='navbar2-h3'>tel.421 325 326<br/>
-            spas@xd.com</h3></a></li>
-            <li className='navbar3-line'><a onClick={function hideNavbar(): void {
+        <a className='navbar3-x' onClick={function hideNavbar(): void {
   const navbar3 = document.querySelector('.navbar3') as HTMLElement;
   if (navbar3) {
     navbar3.style.display = 'none';
   }
 }
-}>X</a></li>
-          </ul>
-        </div>
+}><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+</div>
     </nav>
 )
 }

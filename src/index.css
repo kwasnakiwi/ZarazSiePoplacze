@@ -87,43 +87,18 @@ ul{
 }
 /*navbar3*/
 .navbar3{
-  margin: 0;
-  padding: 0;
+  top: 0;
   background-color: black;
   position: fixed;
-  top: 0;
-  right: 0;
   height: 30vh;
   width: 100%;
   z-index: 1000;
-  display: none;
+  display: block;
 }
-.navbar3-list{
-  list-style: none;
+.navbar3-x{
   display: flex;
-  justify-content: center;
-}
-.navbar3 a{
-
-  padding: 0 30px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: white;
-  font-family: Saira Condensed;
-  font-size: 17px;
-  font-weight: 400;
-  height: 100%;
-}
-.navbar3-line{
-  margin-left: auto;
-}
-
-.navbar3 img{
-  width: 100px;
-}
-.navbar3 a{
-
+  justify-content: flex-end;
+  padding: 15px;
 }
 /*homepage*/
 .web-image {
@@ -629,12 +604,14 @@ margin-bottom: -350px;
   justify-content: center;
   gap: 100px;
   align-items: center;
+  margin-bottom: 100px;
 }
 .about-team2{
   display: none;
   margin: 0 15%;
   text-align: center;
   gap: 100px;
+  margin-bottom: 100px;
 }
 .about-restaurant img,
 .about-team img,
