@@ -23,10 +23,10 @@ function Navbar() {
             <li className='navbar2-line hideOnMobile'><a>KONTAKT</a></li>
             <li className='navbar2-line hideOnMobile'><a><h3 className='navbar2-h3'>tel.421 325 326<br/>
             spas@xd.com</h3></a></li>
-            <li className='navbar2-line'><a onClick={function showNavbar(): void {
+            <li className='navbar2-line showOnMobile'><a style={{cursor: 'pointer'}} onClick={function showNavbar(): void {
   const navbar3 = document.querySelector('.navbar3') as HTMLElement;
   if (navbar3) {
-    navbar3.style.display = 'flex';
+    navbar3.style.display = 'block';
   }
 }
 }><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
@@ -34,13 +34,23 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar3">
-        <a className='navbar3-x' onClick={function hideNavbar(): void {
+        <a className='navbar3-x' style={{cursor: 'pointer'}} onClick={function hideNavbar(): void {
   const navbar3 = document.querySelector('.navbar3') as HTMLElement;
   if (navbar3) {
     navbar3.style.display = 'none';
   }
 }
 }><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+  <ul className='navbar3-list'>
+    <li className='navbar3-line'><Link to="/"><img src={pizzalogo} alt="logo"/></Link></li>
+    <li className='navbar3-line'><Link to="/menu1">MENU</Link></li>
+    <li className='navbar3-line'><Link to="/about_us">O NAS</Link></li>
+    <li className='navbar3-line'><Link to="">KONTAKT</Link></li>
+  </ul>
+  <div className='under-nav3'>
+    <h3 className='navbar3-h3'>tel.421 325 326</h3>
+    <h3 className='navbar3-h3'>spas@xd.com</h3>
+  </div>
 </div>
     </nav>
 )
