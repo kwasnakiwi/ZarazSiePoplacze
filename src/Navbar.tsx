@@ -34,6 +34,12 @@ function Navbar() {
         </div>
         <div className="navbar3">
           <ul className='navbar3-list'>
+            <li className='navbar3-line'><a><img src={pizzalogo}/></a></li>
+            <li className='navbar3-line '><a>MENU</a></li>
+            <li className='navbar3-line '><a>O NAS</a></li>
+            <li className='navbar3-line '><a>KONTAKT</a></li>
+            <li className='navbar3-line '><a><h3 className='navbar2-h3'>tel.421 325 326<br/>
+            spas@xd.com</h3></a></li>
             <li className='navbar3-line'><a onClick={function hideNavbar(): void {
   const navbar3 = document.querySelector('.navbar3') as HTMLElement;
   if (navbar3) {
@@ -41,12 +47,6 @@ function Navbar() {
   }
 }
 }>X</a></li>
-            <li className='navbar3-line'><a><img src={pizzalogo}/></a></li>
-            <li className='navbar3-line '><a>MENU</a></li>
-            <li className='navbar3-line '><a>O NAS</a></li>
-            <li className='navbar3-line '><a>KONTAKT</a></li>
-            <li className='navbar3-line '><a><h3 className='navbar2-h3'>tel.421 325 326<br/>
-            spas@xd.com</h3></a></li>
           </ul>
         </div>
     </nav>

@@ -1,7 +1,7 @@
 import PizzaImg from "./PizzaImg"
 
 function Menu1() {
-    return <section className="center-container">
+    return <section className="menu-container">
       <PizzaImg/>
     <div className="menu-items-box">
       <div className="menu-items-title">
