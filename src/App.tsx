@@ -8,12 +8,14 @@ import Menu4 from "./Menu4";
 import Menu5 from "./Menu5";
 import AboutUs from "./AboutUs";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <>
       <BrowserRouter>
           <Navbar/>
+          <ScrollToTop />
           <Routes>
               <Route index element={<HomePage/>}/>
               <Route path="/about_us" element={<AboutUs/>}/>

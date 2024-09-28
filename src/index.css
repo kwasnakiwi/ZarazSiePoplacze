@@ -15,6 +15,7 @@ ul{
   background-image: url(/src/assets/images/menu-bg.png);
   margin-left: 200px;
   background-attachment: fixed;
+
 }
 .navbar{
   width: 200px;
@@ -47,10 +48,12 @@ ul{
 }
 /*navbar2*/
 .navbar2{
-  margin: 0;
   padding: 0;
   background-color: black;
   display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 .navbar2-h3{
   margin: 0;
@@ -96,7 +99,7 @@ ul{
   height: 30vh;
   width: 100%;
   z-index: 1000;
-  display: block;
+  display: none;
 }
 .navbar3-x{
   display: flex;
@@ -871,6 +874,7 @@ margin-bottom: -350px;
   }
   .menu-container{
     margin-left: 0;
+    padding-top: 100px;
   }
   .navbar2{
     display: flex;

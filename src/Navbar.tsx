@@ -17,10 +17,10 @@ function Navbar() {
         </div>
         <div className="navbar2">
           <ul className='navbar2-list'>
-            <li className='navbar2-line'><a><img src={pizzalogo}/></a></li>
-            <li className='navbar2-line hideOnMobile'><a>MENU</a></li>
-            <li className='navbar2-line hideOnMobile'><a>O NAS</a></li>
-            <li className='navbar2-line hideOnMobile'><a>KONTAKT</a></li>
+            <li className='navbar2-line'><Link to="/"><img src={pizzalogo}/></Link></li>
+            <li className='navbar2-line hideOnMobile'><Link to="/menu1">MENU</Link></li>
+            <li className='navbar2-line hideOnMobile'><Link to="/about_us">O NAS</Link></li>
+            <li className='navbar2-line hideOnMobile'><Link to ="">KONTAKT</Link></li>
             <li className='navbar2-line hideOnMobile'><a><h3 className='navbar2-h3'>tel.421 325 326<br/>
             spas@xd.com</h3></a></li>
             <li className='navbar2-line showOnMobile'><a style={{cursor: 'pointer'}} onClick={function showNavbar(): void {
