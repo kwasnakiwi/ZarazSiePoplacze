@@ -9,13 +9,16 @@ ul{
 }
 .center-container{
   margin-left: 200px;
-  
+
 }
 .menu-container{
   background-image: url(/src/assets/images/menu-bg.png);
   margin-left: 200px;
   background-attachment: fixed;
 
+}
+.center-container-main{
+  margin-left: 200px;
 }
 .navbar{
   width: 200px;
@@ -54,6 +57,7 @@ ul{
   position: fixed;
   width: 100%;
   z-index: 999;
+  height: 15vh;
 }
 .navbar2-h3{
   margin: 0;
@@ -84,7 +88,7 @@ ul{
   align-items: center;
   color: white;
   font-family: Saira Condensed;
-  font-size: 17px;
+  font-size: 25px;
   font-weight: 400;
 }
 
@@ -123,13 +127,13 @@ ul{
 .navbar3-line a{
   color: white;
   font-family: Saira Condensed;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400;
   text-decoration: none;
 }
 .navbar3-h3{
   font-family: Saira Condensed;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400;
   color: white;
   padding: 0 30px;
@@ -405,7 +409,7 @@ margin-bottom: -350px;
 .pizza-menu-down{
   display: flex;
   justify-content: center;
-  margin-top: -250px;
+
   margin-top: -260px;
   margin-left: -5px;
 }
@@ -871,10 +875,14 @@ margin-bottom: -350px;
 
   .center-container{
       margin-left: 0;
+      padding-top: 140px;
   }
+  .center-container-main{
+    margin-left: 0;
+}
   .menu-container{
     margin-left: 0;
-    padding-top: 100px;
+    padding-top: 140px;
   }
   .navbar2{
     display: flex;
@@ -931,11 +939,11 @@ margin-bottom: -350px;
       width: 350px;
   }
   .menu-item-description{
-    font-size: 15px;
+
   height: 40px;
   }
   .menu-item-name{
-    font-size: 20px;
+
   }
   .pizza-box,
   .przystawki-box,
@@ -995,7 +1003,7 @@ margin-bottom: -350px;
     rotate(90deg);
   }
   .menu-item-price{
-    font-size: 15px;
+    margin-top: 50px;
 
   }
 
@@ -1029,11 +1037,12 @@ margin-bottom: -350px;
   .meals img{
       width: 270px;
   }
+
   .navbar3 a{
-    font-size: 15px;
+
   } 
   .navbar3-h3{
-    font-size: 15px;
+
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -1045,10 +1054,10 @@ margin-bottom: -350px;
     width: 70px;
   }
   .navbar3{
-    height: 20vh;
+    height: 30vh;
   }
   .under-nav3{
-    margin-top: -35px;
+
   }
   .navbar3-list{
     margin-top: -40px;
@@ -1058,7 +1067,7 @@ margin-bottom: -350px;
     width: 300px;
   }
   .menu-item-price{
-    margin-top: 50px;
+    margin-top: 80px;
   }
 }
 @media (max-width: 520px){
@@ -1139,7 +1148,10 @@ margin-bottom: -350px;
   .title{
       font-size: 30px;
   }
-
+  .navbar3 a,
+  .navbar3-h3{
+    font-size: 20px;
+  }
 }
 @media (max-width: 350px){
   .offers-title{
@@ -1158,5 +1170,11 @@ margin-bottom: -350px;
   }
   .menu-item{
     width: 250px;
+  }
+  .menu-item-price{
+    margin-top: 25%;
+  }
+  #odmieniec{
+    margin-top: 130px;
   }
 }

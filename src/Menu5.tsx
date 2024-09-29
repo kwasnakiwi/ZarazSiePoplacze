@@ -134,8 +134,8 @@ function Menu5() {
           </div>
           <div className="menu-item">
             <div className="menu-item-text">
-              <h3 className="menu-item-name">Kinley z nutą owoców jagodowych i jaśminu</h3>
-              <h4 className="menu-item-price">250ml - 9zł</h4>
+              <h3 className="menu-item-name" >Kinley z nutą owoców jagodowych i jaśminu</h3>
+              <h4 className="menu-item-price" id="odmieniec">250ml - 9zł</h4>
             </div>
           </div>
           <div className="menu-item">

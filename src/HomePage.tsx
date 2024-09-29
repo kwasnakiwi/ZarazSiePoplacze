@@ -7,7 +7,7 @@ import star from "./assets/images/star-full-icon.png";
 
 function HomePage() {
     return (
-      <section className="center-container">
+      <section className="center-container-main">
         <div className="web-image"></div>
         <div className="offers">
           <div className="offer">
