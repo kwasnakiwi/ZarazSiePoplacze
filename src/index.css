@@ -13,15 +13,15 @@ ul{
 }
 .menu-container{
   background-image: url(/src/assets/images/menu-bg.png);
-  margin-left: 200px;
+  margin-left: 260px;
   background-attachment: fixed;
 
 }
 .center-container-main{
-  margin-left: 200px;
+  margin-left: 260px;
 }
 .navbar{
-  width: 200px;
+  width: 260px;
   height: 1080px;
   background: black;
   color: white;
@@ -901,6 +901,12 @@ margin-bottom: -350px;
   .meals{
       grid-template-columns: 1fr;
   }
+  .hideOnMobile{
+    display: none;
+  }
+  .showOnMobile{
+    display: block;
+  }
 }
 @media (max-width: 880px){
   .meet-us-line img{
@@ -920,12 +926,7 @@ margin-bottom: -350px;
   .about-team-title{
     font-size: 35px;
   }
-  .hideOnMobile{
-    display: none;
-  }
-  .showOnMobile{
-    display: block;
-  }
+
 }
 @media (max-width: 780px){
 
@@ -1046,36 +1047,33 @@ margin-bottom: -350px;
     margin-right: auto;
     width: 200px;
 }
+.navbar3-h3{
+
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.navbar3-line{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.navbar3 img{
+  width: 70px;
+}
+.navbar3{
+  height: 30vh;
+}
+
+.navbar3-list{
+  margin-top: -40px;
+}
 }
 @media (max-width: 560px){
   .meals img{
       width: 270px;
   }
 
-  .navbar3 a{
-
-  } 
-  .navbar3-h3{
-
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .navbar3-line{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .navbar3 img{
-    width: 70px;
-  }
-  .navbar3{
-    height: 30vh;
-  }
-  .under-nav3{
-
-  }
-  .navbar3-list{
-    margin-top: -40px;
-  }
   .menu-item{
 
     width: 300px;
@@ -1141,6 +1139,9 @@ margin-bottom: -350px;
   }
   .menu-item img{
       width: 150px;
+  }
+  .under-nav3{
+    display: block;
   }
 }
 @media (max-width: 390px){

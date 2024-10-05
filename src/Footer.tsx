@@ -4,8 +4,7 @@ function Footer() {
     return <div className="footer">
             <ul className="footer-list">
                 <li className="footer-list-line"><img src={logo}/></li>
-                <li className="footer-list-line">Blasdalskfiflakslfsal;fkasl;fa</li>
-                <li className="footer-list-line">fikasfg;pdsojgsdo;g;a</li>
+                <li className="footer-list-line">Pizzeria Uno Momento</li>
             </ul>
             <ul className="footer-list">
                 <li className="footer-list-line">Strona Główna</li>
@@ -14,13 +13,21 @@ function Footer() {
                 <li className="footer-list-line">Kontakt</li>
             </ul>
             <ul className="footer-list">
-                <li className="footer-list-line">Nazwa</li>
-                <li className="footer-list-line">Adres</li>
-                <li className="footer-list-line">Miasto</li>
-                <li className="footer-list-line">Mail</li>
-                <li className="footer-list-line">Telefon</li>
+                <li className="footer-list-line">Pizzeria Uno Momento</li>
+                <li className="footer-list-line">Ul.Topolowa 48a</li>
+                <li className="footer-list-line">41-300 Dąbrowa Górnicza</li>
+                <li className="footer-list-line">uno.momentodg@gmail.com</li>
+                <li className="footer-list-line">577 886 999</li>
             </ul>
         </div>
 }
 
 export default Footer
+
+
+
+
+
+
+
+
