@@ -261,6 +261,7 @@ ul{
   font-weight: 400;
   cursor: pointer;
   transition: 0.5s;
+  width: 300px;
 }
 .just-eat-btn:hover{
   background: rgb(199, 94, 24);

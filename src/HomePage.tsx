@@ -78,7 +78,7 @@ function HomePage() {
             <div className="enjoy-text">
               <h4 className="just-eat-h4">Zamów teraz na Pyszne.pl – Twoja ulubiona pizza w zasięgu kliknięcia!</h4>
               <ul className="enjoy-list">
-                <li className="enjoy-list-line"><div className="enjoy-div"><img src={star}/><span>4.5</span></div><button className="just-eat-btn">zamów teraz!</button></li>
+                <li className="enjoy-list-line"><div className="enjoy-div"><img src={star}/><span>4.5</span></div><a href='https://www.pyszne.pl/menu/pizzeria-uno-momento-dabrowa-gornicza'><button className="just-eat-btn">zamów teraz!</button></a></li>
               </ul>
               <h3>Godziny otwarcia</h3>
               <ul className="opening-hours-list">
