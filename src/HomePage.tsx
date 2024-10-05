@@ -1,4 +1,4 @@
-import zdjecie2 from './assets/images/Zdjęcie2.png';
+
 import meal1 from './assets/images/Zdjęcie (2).png';
 import meal2 from './assets/images/Zdjęcie (3).png';
 import meal3 from './assets/images/Zdjęcie (4).png';
