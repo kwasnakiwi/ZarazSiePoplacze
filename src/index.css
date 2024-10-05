@@ -57,7 +57,7 @@ ul{
   position: fixed;
   width: 100%;
   z-index: 999;
-  height: 15vh;
+  height: 120px;
 }
 .navbar2-h3{
   margin: 0;
@@ -303,10 +303,14 @@ ul{
 .enjoy-container{
   margin: 100px 2%;
 }
+.footer img{
+  width: 100px;
+}
 .footer-list{
   list-style: none;
   margin-top: 100px;
   padding: 0;
+  width: 230px;
 }
 .footer-list-line{
   vertical-align: middle;
@@ -314,6 +318,8 @@ ul{
   font-size: 24px;
   font-weight: 300;
   display: flex;
+  justify-content: center;
+  text-align: left;
   gap: 15px;
 }
 .footer{
@@ -323,6 +329,7 @@ ul{
   justify-content: center;
   gap: 15%;
   padding-bottom: 2em;
+  margin-left: 200px;
 }
 .footer-list-line span{
   color: black;
@@ -857,16 +864,7 @@ margin-bottom: -350px;
       display: block;
   }
 
-  .footer{
-    display: block;
-    text-align: center;
-    padding-top: 100px;
-}   
-.footer-list{
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-}
+
 }
 @media (max-width: 1050px){
   .navbar{
@@ -875,7 +873,7 @@ margin-bottom: -350px;
 
   .center-container{
       margin-left: 0;
-      padding-top: 140px;
+      padding-top: 120px;
   }
   .center-container-main{
     margin-left: 0;
@@ -887,11 +885,16 @@ margin-bottom: -350px;
   .navbar2{
     display: flex;
   }
+  .footer{
+    margin-left: 0;
+  }
 }
 @media (max-width: 1000px){
   .image1{
       width: 500px;
+      height: 400px;
   }
+
 }
 
 @media (max-width: 920px){
@@ -937,6 +940,7 @@ margin-bottom: -350px;
 @media (max-width: 750px){
   .image1{
       width: 350px;
+      height: 200px;
   }
   .menu-item-description{
 
@@ -1032,6 +1036,16 @@ margin-bottom: -350px;
   .title{
       font-size: 50px;
   }
+  .footer{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}   
+.footer-list{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
 }
 @media (max-width: 560px){
   .meals img{
