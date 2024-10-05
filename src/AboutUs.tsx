@@ -1,4 +1,4 @@
-import zdjecielokalu from "./assets/images/zdjęcie-lokalu.png";
+import zdjecielokalu from "./assets/images/Zdjęcie (6).png";
 import teamphoto from "./assets/images/team-photo.png";
 
 function AboutUs() {

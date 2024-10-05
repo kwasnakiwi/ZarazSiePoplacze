@@ -1,8 +1,12 @@
 import zdjecie2 from './assets/images/Zdjęcie2.png';
+import meal1 from './assets/images/Zdjęcie (2).png';
+import meal2 from './assets/images/Zdjęcie (3).png';
+import meal3 from './assets/images/Zdjęcie (4).png';
+import meal4 from './assets/images/Zdjęcie (5).png';
 import jakaspizza from './assets/images/jakaspizza.png';
 import pinkpizza from './assets/images/pinkpizza.png';
 import zdjecie3 from './assets/images/Zdjęcie3.png';
-import zdjecie from "./assets/images/Zdjęcie.png";
+import zdjecie from "./assets/images/Zdjęcie (1).png";
 import star from "./assets/images/star-full-icon.png";
 
 function HomePage() {
@@ -54,16 +58,16 @@ function HomePage() {
           <div className="meals-box">
             <div className="meals">
               <div className="meal">
-                <img src={zdjecie2} alt=""/>
+                <img src={meal1} alt=""/>
               </div>
               <div className="meal">
-                <img src={zdjecie2} alt=""/>
+                <img src={meal2} alt=""/>
               </div>
               <div className="meal">
-                <img src={zdjecie2} alt=""/>
+                <img src={meal3} alt=""/>
               </div>
               <div className="meal">
-                <img src={zdjecie2} alt=""/>
+                <img src={meal4} alt=""/>
               </div>
             </div>
           </div>
