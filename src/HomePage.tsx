@@ -48,7 +48,7 @@ function HomePage() {
             <div className="meet-us-text">
               <h3>Lorem ipsum dolor sit amel</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Nec molestie luctus egestas pretium pellentesque nisl sollicitudin sed et. Magna gravida sed tellus posuere nibh diam adipiscing id. Maecenas amet vulputate in justo facilisis. Odio varius vitae facilisis dapibus. Etiam eu lectus consequat sit porttitor. Enim morbi nulla nisi varius. 
+                Uno Momento to miejsce, gdzie pasja do włoskiej kuchni spotyka się z rodzinną atmosferą. Nasz przytulny lokal to idealne miejsce na spotkania przy wyśmienitej pizzy, przygotowanej według tradycyjnych receptur. Zajrzyj do nas, poczuj smak prawdziwej Italii i daj się oczarować wyjątkowym klimatem naszego wnętrza.
               </p>
             </div>
           </div>
