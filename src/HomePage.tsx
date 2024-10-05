@@ -5,7 +5,6 @@ import meal3 from './assets/images/Zdjęcie (4).png';
 import meal4 from './assets/images/Zdjęcie (5).png';
 import jakaspizza from './assets/images/jakaspizza.png';
 import pinkpizza from './assets/images/pinkpizza.png';
-import zdjecie3 from './assets/images/Zdjęcie3.png';
 import zdjecie from "./assets/images/Zdjęcie (1).png";
 import star from "./assets/images/star-full-icon.png";
 
