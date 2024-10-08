@@ -1,5 +1,5 @@
 import zdjecielokalu from "./assets/images/Zdjęcie (6).png";
-import teamphoto from "./assets/images/team-photo.png";
+
 
 function AboutUs() {
     return <section className="center-container">
