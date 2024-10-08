@@ -22,7 +22,7 @@ ul{
 }
 .navbar{
   width: 260px;
-  height: 1080px;
+  height: 100%;
   background: black;
   color: white;
   text-align: center;
@@ -46,7 +46,7 @@ ul{
   font-family: Saira Condensed;
   font-size: 24px;
   font-weight: 400;
-  padding-top: 200px;
+  padding-top: 270px;
   color: white;
 }
 /*navbar2*/
@@ -195,7 +195,7 @@ ul{
   font-size: 55px;
   font-weight: 400;
   text-align: center;
-  margin-top: 150px;   
+  margin-top: 70px;   
   position: relative;
 }
 .meet-us-line{
@@ -233,7 +233,7 @@ ul{
 }
 .just-eat-h4{
   font-family: Roboto Slab;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 300;
   text-align: left;    
 }
@@ -255,13 +255,15 @@ ul{
   background: rgba(255, 119, 28, 1);
   color: white;
   text-align: center;
-  padding: 5px 10%;
+  padding: 0 10%;
   font-family: Saira Condensed;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 400;
   cursor: pointer;
   transition: 0.5s;
-  width: 300px;
+  width: auto;
+  min-width: 300px;
+  height: 80px;
 }
 .just-eat-btn:hover{
   background: rgb(199, 94, 24);
@@ -275,6 +277,7 @@ ul{
   display: flex;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;
   gap: 5%;
 }
 .enjoy-list{
@@ -285,7 +288,7 @@ ul{
 }
 .enjoy-text h3{
   font-family: Roboto Slab;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
   text-align: center;    
 }
@@ -295,7 +298,7 @@ ul{
 }
 .opening-hours-line{
   font-family: Roboto Slab;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 400;
 }
 .image1{
@@ -309,9 +312,10 @@ ul{
 }
 .footer-list{
   list-style: none;
-  margin-top: 100px;
+  margin-top: 40px;
   padding: 0;
   width: 230px;
+  
 }
 .footer-list-line{
   vertical-align: middle;
@@ -329,8 +333,9 @@ ul{
   color: white;
   justify-content: center;
   gap: 15%;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
   margin-left: 200px;
+  align-items: center;
 }
 .footer-list-line span{
   color: black;
@@ -671,7 +676,163 @@ margin-bottom: -350px;
 .about-team2 img{
   max-height: 350px;
 }
+/*contact*/
+.contact-content{
+  display: flex;
+  margin: 50px 5%;
+  gap: 50px;
+}
+.contact-title{
+  font-family: Roboto Slab;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 0; 
+  padding-top: 50px; 
+}
+.contact-text{
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-weight: 300;
+}
+.contact-list li{
+  font-family: Varta;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  display: flex;
+}
+.contact-list img{
+  vertical-align: middle;
+  margin-right: 15%;
 
+}
+.contact-list{
+  list-style: none;
+  max-width: 600px;
+  margin: 30px auto;
+  margin-top: 100px;
+}
+.faq *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.accordion .fa-chevron-down {
+  transition: transform 0.3s ease; /* Płynna animacja */
+}
+
+.accordion.active .fa-chevron-down {
+  transform: rotate(180deg); /* Obrót o 180 stopni */
+}
+.accordion{
+  font-family: Sofia Sans;
+  font-size: 36px;
+  font-weight: 400;
+  width: 100%;
+  padding: 2rem 1.5rem;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.accordion i{
+  font-size: 1.2em;
+}
+.accordion1 i{
+  font-size: 1.2em;
+}
+.pannel{
+  padding: 0 2rem;
+  overflow: hidden;
+  display: none;
+  max-height: 0;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+.pannel.active {
+  display: block;
+  max-height: 500px; /* Przykładowa wartość, dostosuj do treści */
+  padding-top: 10px;
+}
+
+.pannel p{
+  font-family: Josefin Sans;
+  font-size: 38px;
+  font-weight: 300;
+  padding: 32px 24px;
+}
+.line {
+  opacity: 0; /* Ukrywa linię domyślnie */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.line.active {
+  display: block; 
+  border: rgba(0, 0, 0.5) 1px solid; 
+  opacity: 1;
+}
+.wrapper h2{
+  font-family: Tinos;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  line-height: normal;
+}
+.wrapper{
+  max-width: 75%;
+  margin: auto;
+  margin-bottom: 100px
+}
+.faq{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.accordion{
+  background: rgba(244, 237, 228, 1);
+  border-bottom: rgba(0, 0, 0.5) 1px solid;
+}
+.accordion1{
+  background: rgba(244, 237, 228, 1);
+  border-top: rgb(0, 0, 0) 1px solid;
+  border-bottom: rgba(0, 0, 0.5) 1px solid;
+}
+.footer-line{
+  border: solid black 1px;
+  margin-bottom: 250px;
+  margin-top: 100px;
+}
+.block{
+  display: block;
+}
+
+.right-side {
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.sub-title {
+  color: red;
+  font-family: Josefin Sans;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px; /* Odstęp między tytułem a tekstem */
+  text-align: left;
+}
+
+.text-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 694px;
+  margin-top: 60px;
+  margin-right: 150px;
+}
 /*media*/
 @media (max-width: 1750px){
   .offer-text h3{
@@ -716,6 +877,10 @@ margin-bottom: -350px;
       font-size: 25px;
       justify-content: center;
       text-align: center;
+  }
+  .image2{
+    width: 500px;
+    height:400px;
   }
 }
 @media (max-width: 1630px){
@@ -820,6 +985,23 @@ margin-bottom: -350px;
   height: auto;
   width: 770px;
 }
+.contact-title{
+  font-size: 40px;
+}
+.contact-text{
+  font-size: 25px;
+}
+.contact-list li{
+  font-size: 25px;
+}
+.contact-list img{
+  width: 30px;
+  height: 31px;
+  margin-right: 2%;
+}
+.contact-content{
+  margin: 0 2%;
+}
 }
 @media (max-width: 1300px){
   .meet-us-line{
@@ -850,6 +1032,10 @@ margin-bottom: -350px;
   }
   .menu-items2{
       display: block;
+  }
+  .image2{
+    width: 300px;
+    height: 200px;
   }
 }
 @media (max-width: 1120px){
@@ -895,7 +1081,27 @@ margin-bottom: -350px;
       width: 500px;
       height: 400px;
   }
-
+  .contact-content{
+    display: block;
+    text-align: center;
+  }
+  .contact-list li{
+    justify-content: center;
+    width: auto;
+    font-size: 20px;
+  }
+  .contact-title{
+    font-size: 30px;
+  }
+  .contact-text{
+    font-size: 22px;
+  }
+  .image2{
+    width: 270px;
+  }
+  .wrapper h2{
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 920px){
@@ -944,6 +1150,15 @@ margin-bottom: -350px;
       width: 350px;
       height: 200px;
   }
+    .pannel p{
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+    }
+    .pannel{
+        padding: 0 5px;
+    }
+
   .menu-item-description{
 
   height: 40px;

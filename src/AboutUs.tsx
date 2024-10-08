@@ -25,10 +25,8 @@ W naszej pizzerii sięgamy po najwyższej jakości składniki, starannie dobiera
           Nasz zespół to grupa prawdziwych pasjonatów włoskiej kuchni, dla których każde danie to małe dzieło sztuki. Przygotowujemy nie tylko wyśmienite pizze, ale także świeże sałatki i pyszne przystawki, dbając o to, by każdy składnik był najwyższej jakości. Od kucharzy, którzy z troską i precyzją komponują każde danie, po obsługę, która serwuje je z uśmiechem – wszyscy jesteśmy tu po to, by zapewnić Ci niezapomniane kulinarne doświadczenia.
           </p>
         </div>
-        <img src={teamphoto}/>
       </div>
       <div className="about-team2">
-      <img src={teamphoto}/>
         <div className="about-restaurant-text">
           <p className="about-restaurant-p">
             Nasz zespół to grupa prawdziwych pasjonatów włoskiej kuchni, dla których każde danie to małe dzieło sztuki. Przygotowujemy nie tylko wyśmienite pizze, ale także świeże sałatki i pyszne przystawki, dbając o to, by każdy składnik był najwyższej jakości. Od kucharzy, którzy z troską i precyzją komponują każde danie, po obsługę, która serwuje je z uśmiechem – wszyscy jesteśmy tu po to, by zapewnić Ci niezapomniane kulinarne doświadczenia.

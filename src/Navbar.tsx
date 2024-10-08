@@ -9,7 +9,7 @@ function Navbar() {
             <li className="navbar-line"><Link to="/"><img src={pizzalogo} alt="logo"/></Link></li>
             <li className="navbar-line"><Link to="/menu1">MENU</Link></li>
             <li className="navbar-line"><Link to="/about_us">O NAS</Link></li>
-            <li className="navbar-line"><a>KONTAKT</a></li>
+            <li className="navbar-line"><Link to='/contact'>KONTAKT</Link></li>
             <li className="navbar-line"><h3 className="under-nav">tel. 577 886 999<br/>
             uno.momentodg@gmail.com</h3></li>
         </ul>
@@ -20,7 +20,7 @@ function Navbar() {
             <li className='navbar2-line'><Link to="/"><img src={pizzalogo}/></Link></li>
             <li className='navbar2-line hideOnMobile'><Link to="/menu1">MENU</Link></li>
             <li className='navbar2-line hideOnMobile'><Link to="/about_us">O NAS</Link></li>
-            <li className='navbar2-line hideOnMobile'><Link to ="">KONTAKT</Link></li>
+            <li className='navbar2-line hideOnMobile'><Link to ="/contact">KONTAKT</Link></li>
             <li className='navbar2-line hideOnMobile'><a><h3 className='navbar2-h3'>tel. 577 886 999<br/>
             uno.momentodg@gmail.com</h3></a></li>
             <li className='navbar2-line showOnMobile'><a style={{cursor: 'pointer'}} onClick={function showNavbar(): void {
@@ -45,7 +45,7 @@ function Navbar() {
     <li className='navbar3-line'><Link to="/"><img src={pizzalogo} alt="logo"/></Link></li>
     <li className='navbar3-line'><Link to="/menu1">MENU</Link></li>
     <li className='navbar3-line'><Link to="/about_us">O NAS</Link></li>
-    <li className='navbar3-line'><Link to="">KONTAKT</Link></li>
+    <li className='navbar3-line'><Link to="/contact">KONTAKT</Link></li>
   </ul>
   <div className='under-nav3'>
     <h3 className='navbar3-h3'>tel. 577 886 999</h3>
