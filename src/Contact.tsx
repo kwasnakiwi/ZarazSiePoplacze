@@ -1,8 +1,11 @@
 import telephone from './assets/images/phone-call-icon 1 (1).png';
 import malpa from './assets/images/attherate-icon 1 (1).png';
+import MyComponent from "./Accordion";
 
 function Contact() {
   return(
+    <>
+    <MyComponent />
     <div className="center-container center-container-main">
       <div className="contact-title-box">
         <h1 className="contact-title">Pytania, zamówienia, uwagi? Skontaktuj się z nami!</h1>
@@ -91,7 +94,9 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
   )
 }
+
 
 export default Contact

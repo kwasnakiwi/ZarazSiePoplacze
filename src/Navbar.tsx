@@ -6,7 +6,7 @@ function Navbar() {
     <nav>
       <div className="navbar">
         <ul className="navbar-list">
-            <li className="navbar-line"><Link to="/"><img src={pizzalogo} alt="logo"/></Link></li>
+            <li className="navbar-line"><Link to="/pizs"><img src={pizzalogo} alt="logo"/></Link></li>
             <li className="navbar-line"><Link to="/menu1">MENU</Link></li>
             <li className="navbar-line"><Link to="/about_us">O NAS</Link></li>
             <li className="navbar-line"><Link to='/contact'>KONTAKT</Link></li>
@@ -39,7 +39,6 @@ function Navbar() {
   const navbar3 = document.querySelector('.navbar3') as HTMLElement;
   if (navbar3) {
     navbar3.style.display = 'none';
-    navbar3.style.scrollBehavior = 'smooth';
   }
 }
 }><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>

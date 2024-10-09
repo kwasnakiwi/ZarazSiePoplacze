@@ -8,17 +8,16 @@ import Menu4 from "./Menu4";
 import Menu5 from "./Menu5";
 import AboutUs from "./AboutUs";
 import Contact from "./Contact";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
-import MyComponent from "./Accordion";
+
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router basename="/pizzeria">
           <Navbar/>
           <ScrollToTop />
-          <MyComponent />
           <Routes>
               <Route index element={<HomePage/>}/>
               <Route path="/about_us" element={<AboutUs/>} />
@@ -30,7 +29,7 @@ function App() {
               <Route path="/menu5" element={<Menu5/>} />
           </Routes>
           <Footer />
-      </BrowserRouter>
+      </Router>
     </>
   )
 }
