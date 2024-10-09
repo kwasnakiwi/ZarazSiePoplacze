@@ -27,6 +27,7 @@ function Navbar() {
   const navbar3 = document.querySelector('.navbar3') as HTMLElement;
   if (navbar3) {
     navbar3.style.display = 'block';
+    navbar3.style.scrollBehavior = 'smooth';
   }
 }
 }><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
@@ -38,6 +39,7 @@ function Navbar() {
   const navbar3 = document.querySelector('.navbar3') as HTMLElement;
   if (navbar3) {
     navbar3.style.display = 'none';
+    navbar3.style.scrollBehavior = 'smooth';
   }
 }
 }><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>

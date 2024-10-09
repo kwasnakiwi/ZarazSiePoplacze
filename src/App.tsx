@@ -10,6 +10,7 @@ import AboutUs from "./AboutUs";
 import Contact from "./Contact";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
+import MyComponent from "./Accordion";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <BrowserRouter>
           <Navbar/>
           <ScrollToTop />
+          <MyComponent />
           <Routes>
               <Route index element={<HomePage/>}/>
               <Route path="/about_us" element={<AboutUs/>} />

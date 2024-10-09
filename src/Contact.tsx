@@ -27,7 +27,7 @@ function Contact() {
         </div>
       </div>
       <div className="wrapper">
-        <h2><b>Najczęściej zadawane pytania:</b><br />  
+        <h2><b>Najczęściej zadawane pytania:</b><br/>
         wszystko, co musisz wiedzieć o naszej pizzerii!</h2>
         <div className="faq">
           <button className="accordion accordion1">

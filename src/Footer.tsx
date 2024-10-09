@@ -1,16 +1,17 @@
 import logo from "./assets/images/logo.png";
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return <div className="footer">
-            <ul className="footer-list">
+            <Link to='/'><ul className="footer-list">
                 <li className="footer-list-line"><img src={logo}/></li>
                 <li className="footer-list-line">Pizzeria Uno Momento</li>
-            </ul>
+            </ul></Link>
             <ul className="footer-list">
-                <li className="footer-list-line">Strona Główna</li>
-                <li className="footer-list-line">Menu</li>
-                <li className="footer-list-line">O Nas</li>
-                <li className="footer-list-line">Kontakt</li>
+                <li className="footer-list-line"><Link to='/'>Strona Główna</Link></li>
+                <li className="footer-list-line"><Link to='/menu1'>Menu</Link></li>
+                <li className="footer-list-line"><Link to='/about_us'>O Nas</Link></li>
+                <li className="footer-list-line"><Link to='/contact'>Kontakt</Link></li>
             </ul>
             <ul className="footer-list">
                 <li className="footer-list-line">Pizzeria Uno Momento</li>

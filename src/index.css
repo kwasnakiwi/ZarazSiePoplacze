@@ -1,4 +1,6 @@
-
+a{
+  color: white;
+}
 
 body{
   margin: 0;
@@ -158,6 +160,7 @@ ul{
   font-size: 65px;
   font-weight: 400;
   width: 80%;
+  
 }
 .offers{
   display: flex;
@@ -243,6 +246,8 @@ ul{
 }
 .enjoy-div{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .enjoy-image-text{
   display: flex;
@@ -272,6 +277,10 @@ ul{
   font-family: Roboto Slab;
   font-size: 68px;
   font-weight: 500;
+}
+.enjoy-list img{
+  vertical-align: middle;
+  padding-right: 50px;
 }
 .enjoy-list-line{
   display: flex;
@@ -528,7 +537,7 @@ margin-bottom: -350px;
 }
 .menu-item-name{
   font-family: Roboto Slab;
-  font-size: 30px;
+  font-size: 37px;
   font-weight: 400; 
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -538,10 +547,11 @@ margin-bottom: -350px;
 }
 .menu-item-description{
   font-family: Josefin Sans;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
   text-align: left; 
   height: 50px;
+  margin: 0;
 }
 .menu-item-price{
   font-family: Josefin Sans;
@@ -550,6 +560,7 @@ margin-bottom: -350px;
   text-align: right;
   margin-bottom: 0;
   height: 40px;
+  margin-top: 50px;
 }
 .menu-item{
   background: rgba(230, 212, 203, 1);
@@ -571,6 +582,7 @@ margin-bottom: -350px;
   width: auto;
   width: auto;
 }
+
 .drink-menu-items{
   display: flex;
   justify-content: center;
@@ -681,6 +693,7 @@ margin-bottom: -350px;
   display: flex;
   margin: 50px 5%;
   gap: 50px;
+  align-items: center;
 }
 .contact-title{
   font-family: Roboto Slab;
@@ -796,7 +809,7 @@ margin-bottom: -350px;
   border-bottom: rgba(0, 0, 0.5) 1px solid;
 }
 .accordion1{
-  background: rgba(244, 237, 228, 1);
+  
   border-top: rgb(0, 0, 0) 1px solid;
   border-bottom: rgba(0, 0, 0.5) 1px solid;
 }
@@ -875,8 +888,7 @@ margin-bottom: -350px;
   }
   .menu-item-price{
       font-size: 25px;
-      justify-content: center;
-      text-align: center;
+      margin-top: 10%;
   }
   .image2{
     width: 500px;
@@ -935,6 +947,9 @@ margin-bottom: -350px;
   }
   .menu-item{
     width: 500px;
+  }
+  .menu-item-description{
+    height: 100px;
   }
   .menu-items{
     gap: 35px;
@@ -995,8 +1010,8 @@ margin-bottom: -350px;
   font-size: 25px;
 }
 .contact-list img{
-  width: 30px;
-  height: 31px;
+  width: 50px;
+  height: 51px;
   margin-right: 2%;
 }
 .contact-content{
@@ -1009,9 +1024,11 @@ margin-bottom: -350px;
       text-align: center;
   }
   .menu-item-name{
-      font-size: 25px;
-      height: 50px;
+      height: 80px;
+      font-size: 30px;
+      
   }
+
 }
 @media (max-width: 1240px){
   .footer{
@@ -1078,8 +1095,8 @@ margin-bottom: -350px;
 }
 @media (max-width: 1000px){
   .image1{
-      width: 500px;
-      height: 400px;
+      width: 800px;
+      height: 500px;
   }
   .contact-content{
     display: block;
@@ -1088,16 +1105,20 @@ margin-bottom: -350px;
   .contact-list li{
     justify-content: center;
     width: auto;
-    font-size: 20px;
+    font-size: 25px;
+    display: block;
+    width: auto;
   }
   .contact-title{
     font-size: 30px;
   }
+
   .contact-text{
-    font-size: 22px;
+    font-size: 27px;
   }
   .image2{
-    width: 270px;
+    width: 700px;
+    height: 400px;
   }
   .wrapper h2{
     font-size: 40px;
@@ -1122,6 +1143,14 @@ margin-bottom: -350px;
   .menu-item{
     width: 500px;
   }
+  .menu-item-description{
+    height: 70px;
+    font-size: 22px;
+  }
+  .image1{
+    width: 650px;
+    height: 350px;
+}
 }
 @media (max-width: 820px){
   .menu-items-title h2{
@@ -1146,10 +1175,7 @@ margin-bottom: -350px;
   }
 }
 @media (max-width: 750px){
-  .image1{
-      width: 350px;
-      height: 200px;
-  }
+
     .pannel p{
         font-size: 25px;
         padding: 10px;
@@ -1158,11 +1184,12 @@ margin-bottom: -350px;
     .pannel{
         padding: 0 5px;
     }
+    .image2{
+      width: 500px;
+      height: 300px;
+    }
 
-  .menu-item-description{
 
-  height: 40px;
-  }
   .menu-item-name{
 
   }
@@ -1224,7 +1251,7 @@ margin-bottom: -350px;
     rotate(90deg);
   }
   .menu-item-price{
-    margin-top: 50px;
+    margin-top: 80px;
 
   }
 
@@ -1248,6 +1275,10 @@ margin-bottom: -350px;
   .offer img{
       width: 285px;
   }
+  .image1{
+    width: 400px;
+    height: 270px;
+}
 }
 @media (max-width: 630px){
   .title{
@@ -1289,13 +1320,22 @@ margin-bottom: -350px;
   .meals img{
       width: 270px;
   }
-
+  .image2{
+    width: 300px;
+    height: 200px;
+  }
   .menu-item{
 
     width: 300px;
   }
   .menu-item-price{
-    margin-top: 80px;
+    margin-top: 120px;
+  }
+  #different-height{
+    height: 100px;
+  }
+  .menu-item-description{
+    font-size: 25px;
   }
 }
 @media (max-width: 520px){
@@ -1334,9 +1374,7 @@ margin-bottom: -350px;
   }
 }
 @media (max-width: 450px){
-  .image1{
-      width: 250px;
-  }
+
   .menu-items-title h2{
     font-size: 35px;
   }
@@ -1345,6 +1383,9 @@ margin-bottom: -350px;
   .title{
       font-size: 40px;
   }
+  .image1{
+    width: 290px;
+}
 }
 @media (max-width: 400px){
   .opening-hours-line{
@@ -1388,11 +1429,16 @@ margin-bottom: -350px;
   .offers-title{
       font-size: 30px;
   }
-  .image1{
-      width: 200px;
+  .image2{
+    width: 250px;
   }
   .drink-menu{
       width: 200px;
+  }
+  .just-eat-btn{
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 200px;
   }
 }
 @media (max-width: 340px){

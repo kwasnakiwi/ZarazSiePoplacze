@@ -1,23 +1,15 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const ScrollToTop = () => {
-  const { pathname } = useLocation();
+const ScrollToTop: React.FC = () => {
+  const location = useLocation();
 
   useEffect(() => {
-    const handleLinkClick = (event: MouseEvent) => {
-      const target = event.target as HTMLAnchorElement;
-      if (target.tagName === "A" && target.getAttribute("href") === window.location.pathname) {
-        window.scrollTo(0, 0);
-      }
-    };
-
-    window.addEventListener("click", handleLinkClick);
-
-    return () => {
-      window.removeEventListener("click", handleLinkClick);
-    };
-  }, [pathname]);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [location]); // Za każdym razem, gdy zmienia się location, strona przewinie się na górę
 
   return null;
 };
