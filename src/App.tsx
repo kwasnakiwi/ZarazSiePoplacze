@@ -15,7 +15,7 @@ import ScrollToTop from './ScrollToTop';
 function App() {
   return (
     <>
-      <Router basename="/pizzeria">
+      <Router>
           <Navbar/>
           <ScrollToTop />
           <Routes>

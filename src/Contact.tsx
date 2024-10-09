@@ -94,6 +94,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    <MyComponent />
     </>
   )
 }
