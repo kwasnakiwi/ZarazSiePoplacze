@@ -6,7 +6,7 @@ function Navbar() {
     <nav>
       <div className="navbar">
         <ul className="navbar-list">
-            <li className="navbar-line"><Link to="/pizs"><img src={pizzalogo} alt="logo"/></Link></li>
+            <li className="navbar-line"><Link to="/"><img src={pizzalogo} alt="logo"/></Link></li>
             <li className="navbar-line"><Link to="/menu1">MENU</Link></li>
             <li className="navbar-line"><Link to="/about_us">O NAS</Link></li>
             <li className="navbar-line"><Link to='/contact'>KONTAKT</Link></li>
