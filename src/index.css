@@ -4,19 +4,21 @@ a{
 
 body{
   margin: 0;
-  background: rgba(244, 237, 228, 1);
+  background-color: black;
 }
 ul{
   padding: 0;
 }
-.center-container{
-  margin-left: 200px;
+.center-container-main{
+  margin-left: 260px;
+  background: rgba(244, 237, 228, 1);
 
 }
 .menu-container{
   background-image: url(/src/assets/images/menu-bg.png);
   margin-left: 260px;
   background-attachment: fixed;
+  background-color: rgba(244, 237, 228, 1);
 
 }
 .center-container-main{
@@ -314,7 +316,7 @@ ul{
   width: 700px;
 }
 .enjoy-container{
-  margin: 100px 2%;
+  padding: 100px 2%;
 }
 .footer img{
   width: 100px;
@@ -335,6 +337,7 @@ ul{
   justify-content: center;
   text-align: left;
   gap: 15px;
+  
 }
 .footer{
   display: flex;
@@ -343,7 +346,7 @@ ul{
   justify-content: center;
   gap: 15%;
   padding-bottom: 3em;
-  margin-left: 200px;
+  margin-left: 260px;
   align-items: center;
 }
 .footer-list-line span{
