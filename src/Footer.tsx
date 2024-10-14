@@ -9,7 +9,7 @@ function Footer() {
             </ul></Link>
             <ul className="footer-list">
                 <li className="footer-list-line"><Link to='/'>Strona Główna</Link></li>
-                <li className="footer-list-line"><Link to='/menu1'>Menu</Link></li>
+                <li className="footer-list-line"><Link to='/menu/pizzarossa'>Menu</Link></li>
                 <li className="footer-list-line"><Link to='/about_us'>O Nas</Link></li>
                 <li className="footer-list-line"><Link to='/contact'>Kontakt</Link></li>
             </ul>

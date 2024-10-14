@@ -7,7 +7,7 @@ function Navbar() {
       <div className="navbar">
         <ul className="navbar-list">
             <li className="navbar-line"><Link to="/"><img src={pizzalogo} alt="logo"/></Link></li>
-            <li className="navbar-line"><Link to="/menu1">MENU</Link></li>
+            <li className="navbar-line"><Link to="/menu/pizzarossa">MENU</Link></li>
             <li className="navbar-line"><Link to="/about_us">O NAS</Link></li>
             <li className="navbar-line"><Link to='/contact'>KONTAKT</Link></li>
             <li className="navbar-line"><h3 className="under-nav">tel. 577 886 999<br/>
@@ -18,7 +18,7 @@ function Navbar() {
         <div className="navbar2">
           <ul className='navbar2-list'>
             <li className='navbar2-line'><Link to="/"><img src={pizzalogo}/></Link></li>
-            <li className='navbar2-line hideOnMobile'><Link to="/menu1">MENU</Link></li>
+            <li className='navbar2-line hideOnMobile'><Link to="/menu/pizzarossa">MENU</Link></li>
             <li className='navbar2-line hideOnMobile'><Link to="/about_us">O NAS</Link></li>
             <li className='navbar2-line hideOnMobile'><Link to ="/contact">KONTAKT</Link></li>
             <li className='navbar2-line hideOnMobile'><a><h3 className='navbar2-h3'>tel. 577 886 999<br/>
@@ -44,7 +44,7 @@ function Navbar() {
 }><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
   <ul className='navbar3-list'>
     <li className='navbar3-line'><Link to="/"><img src={pizzalogo} alt="logo"/></Link></li>
-    <li className='navbar3-line'><Link to="/menu1">MENU</Link></li>
+    <li className='navbar3-line'><Link to="/menu/pizzarossa">MENU</Link></li>
     <li className='navbar3-line'><Link to="/about_us">O NAS</Link></li>
     <li className='navbar3-line'><Link to="/contact">KONTAKT</Link></li>
   </ul>
