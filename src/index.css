@@ -52,8 +52,13 @@ ul{
   font-family: Saira Condensed;
   font-size: 24px;
   font-weight: 400;
-  padding-top: 270px;
+  padding-top: 150px;
   color: white;
+}
+.fbigicons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 /*navbar2*/
 .navbar2{
@@ -83,7 +88,7 @@ ul{
   height: 100px;
   color: white;
 }
-.navbar2 img{
+.logo2{
   width: 100px;
 }
 .navbar2 a{
@@ -106,7 +111,8 @@ ul{
   top: 0;
   background-color: black;
   position: fixed;
-  height: 30vh;
+  height: auto;
+  padding-bottom: 50px;
   width: 100%;
   z-index: 1000;
   display: none;
@@ -118,7 +124,7 @@ ul{
   height: 50px;
   align-items: center;
 }
-.navbar3 img{
+.navbar3-list img{
   width: 100px;
 }
 .navbar3-list{
@@ -148,6 +154,17 @@ ul{
   display: flex;
   padding: 10px 30px;
 }
+.under-nav4{
+  padding: 10px 60px;
+}
+.fbigicons2{
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+}
+.fbigicons2 img{
+  width: 50px;
+}
 .showOnMobile{
   display: none;
 }
@@ -163,39 +180,26 @@ ul{
   font-family: Tinos;
   font-size: 65px;
   font-weight: 400;
-  width: 80%;
-  
+  text-align: center;
 }
 .offers{
-  display: flex;
-  justify-content: center;
-  margin: 0 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  row-gap: 20px;
 }
 .offer{
   text-align: center;
-  width: 100%;
+}
+.offers-box{
+  margin: 0 7%;
 }
 .text-n-image{
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.offer-text h3{
-  font-family: Roboto Slab;
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 59.35px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.offer-text p{
-  font-family: Josefin Sans;
-  font-size: 32px;
-  font-weight: 300;
-  text-align: left;
-  margin: 0;
-}
+
 
 .title{
   font-family: Tinos;
@@ -228,15 +232,16 @@ ul{
 
 .meals{
   display: grid;
-  grid-template-columns: 335px 335px 335px 335px;
-  gap: 20px;
+  grid-template-columns: 285px 285px 285px 285px;
   justify-content: center;
 }
 .meal{
   text-align: center;
+  margin-top: -20px; /* Negatywny margines, aby nachodziły na siebie */
 }
 .meals img{
   text-align: center;
+  width: 300px;
 }
 .just-eat-h4{
   font-family: Roboto Slab;
@@ -318,7 +323,7 @@ ul{
   width: 700px;
 }
 .enjoy-container{
-  padding: 100px 2%;
+  padding: 0 2% 100px;
 }
 .footer img{
   width: 100px;
@@ -424,8 +429,7 @@ a{
   font-size: 42px;
   font-weight: 400;
   margin: 1;
-  min-width: 600px;
-  max-width: 600px;
+  width: 600px;
   margin: 0 0 5px;
 }
 .menu-item-price{
@@ -719,14 +723,9 @@ a{
   }
 }
 @media (max-width: 1630px){
-  .meals{
-      grid-template-columns: 1fr 1fr;
-  }
-  .meal{
-      margin-bottom: 20px;
-  }
-  .meals-container{
-      margin: 0 5%;
+
+  .offers-box{
+    margin: 0 0.5%;
   }
 }
 @media (max-width: 1560px){
@@ -770,6 +769,11 @@ a{
   }
 
 }
+@media (max-width: 1505px) {
+  .offer img{
+    width: 400px;
+  }
+}
 @media (max-width: 1480px){
   .meet-us-line{
       margin: 0 2%;
@@ -777,7 +781,12 @@ a{
   .menu-btn{
     font-size: 32px;
   }
-
+  .meals{
+    grid-template-columns: 285px 285px 285px;
+  }
+  .meal-hom1{
+    display: none;
+  }
 
 }
 @media (max-width: 1440px){
@@ -844,11 +853,14 @@ a{
     width: 300px;
     height: 200px;
   }
+  .meals{
+    grid-template-columns: 285px 285px;
+  }
 }
 @media (max-width: 1120px){
 
 }
-@media (max-width: 1100px){
+@media (max-width: 1200px){
   .offers{
       display: block;
   }
@@ -873,6 +885,13 @@ a{
   }
   .footer{
     margin-left: 0;
+  }
+  .fbigicons{
+    display: block;
+  }
+  .fbigicons img{
+    margin: 0 1%;
+    width: 40px;
   }
 }
 @media (max-width: 1000px){
@@ -907,16 +926,14 @@ a{
   }
 }
 
-@media (max-width: 920px){
-  .meals{
-      grid-template-columns: 1fr;
-  }
+@media (max-width: 985px){
   .hideOnMobile{
     display: none;
   }
   .showOnMobile{
     display: block;
   }
+
 }
 @media (max-width: 880px){
   .meet-us-line img{
@@ -1015,6 +1032,15 @@ a{
 }
 }
 @media (max-width: 630px){
+  .meal img{
+    width: 200px;
+  }
+  .meals{
+    grid-template-columns: 185px 185px;
+  }
+  .meal-hom2{
+    display: none;
+  }
   .title{
       font-size: 50px;
   }
@@ -1039,11 +1065,8 @@ a{
   padding-right: 10px;
   font-size: 20px;
 }
-.navbar3 img{
+.navbar3-list img{
   width: 70px;
-}
-.navbar3{
-  height: 30vh;
 }
 
 .navbar3-list{
@@ -1058,15 +1081,17 @@ a{
   .menu-item-price{
     margin: 0;
     width: auto;
+    text-align: center;
   }
   .menu-item-name{
     width: auto;
+    max-width: none;
+    min-width: none;
+    text-align: center;
   }
 }
 @media (max-width: 560px){
-  .meals img{
-      width: 270px;
-  }
+
   .image2{
     width: 300px;
     height: 200px;
@@ -1112,6 +1137,13 @@ a{
   .image1{
     width: 290px;
 }
+  .meals{
+    grid-template-columns: 185px;
+  }
+  .meal-hom3{
+    display: none;
+  }
+
 }
 @media (max-width: 400px){
   .opening-hours-line{
@@ -1129,9 +1161,7 @@ a{
   .meet-us-line img{
       width: 200px;
   }
-  .meals img{
-      width: 220px;
-  }
+
 
 }
 @media (max-width: 368px){

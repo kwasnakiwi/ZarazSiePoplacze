@@ -1,4 +1,6 @@
 import pizzalogo from'./assets/images/pizza-logo.png';
+import ig from './assets/images/ig (1).png';
+import fb from './assets/images/Fb.png';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -12,12 +14,13 @@ function Navbar() {
             <li className="navbar-line"><Link to='/contact'>KONTAKT</Link></li>
             <li className="navbar-line"><h3 className="under-nav">tel. 577 886 999<br/>
             uno.momentodg@gmail.com</h3></li>
+            <li className='navbar-line'><div className='fbigicons'><img src={ig}/><img src={fb}/></div></li>
         </ul>
 
         </div>
         <div className="navbar2">
           <ul className='navbar2-list'>
-            <li className='navbar2-line'><Link to="/"><img src={pizzalogo}/></Link></li>
+            <li className='navbar2-line'><Link to="/"><img className='logo2' src={pizzalogo}/></Link></li>
             <li className='navbar2-line hideOnMobile'><Link to="/menu/pizzarossa">MENU</Link></li>
             <li className='navbar2-line hideOnMobile'><Link to="/about_us">O NAS</Link></li>
             <li className='navbar2-line hideOnMobile'><Link to ="/contact">KONTAKT</Link></li>
@@ -32,6 +35,8 @@ function Navbar() {
 }
 }><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
 </a></li>
+    <li className='navbar-line hideOnMobile'><div className='fbigicons'><img src={ig}/><img src={fb}/></div></li>
+          
           </ul>
         </div>
         <div className="navbar3">
@@ -51,6 +56,12 @@ function Navbar() {
   <div className='under-nav3'>
     <h3 className='navbar3-h3'>tel. 577 886 999</h3>
     <h3 className='navbar3-h3'>uno.momentodg@gmail.com</h3>
+  </div>
+  <div className='under-nav4'>
+    <div className='fbigicons2'>
+      <img src={ig}/>
+      <img src={fb}/>
+    </div>
   </div>
 </div>
     </nav>

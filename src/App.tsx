@@ -21,8 +21,8 @@ function App() {
           <ScrollToTop />
           <Routes>
               <Route index element={<HomePage />}/>
-              <Route path='/menu/about_us' element={<AboutUs />} />
-              <Route path='/menu/contact' element={<Contact />} />
+              <Route path='/about_us' element={<AboutUs />} />
+              <Route path='/contact' element={<Contact />} />
               <Route path='/menu/pizzarossa' element={<PizzaRossaMenu />} />
               <Route path='/menu/pizzabianca' element={<PizzaBiancaMenu />} />
               <Route path='/menu/przystawki' element={<PrzystawkiMenu />} />

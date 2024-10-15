@@ -1,42 +1,37 @@
 
-import meal1 from './assets/images/Zdjęcie (2).png';
-import meal2 from './assets/images/Zdjęcie (3).png';
-import meal3 from './assets/images/Zdjęcie (4).png';
-import meal4 from './assets/images/Zdjęcie (5).png';
-import jakaspizza from './assets/images/jakaspizza.png';
-import pinkpizza from './assets/images/pinkpizza.png';
+import offer1 from './assets/images/Kolka.png';
+import offer2 from './assets/images/Sałatki.png';
+import offer3 from './assets/images/Pizza (1).png';
+import offer4 from './assets/images/Sosy.png';
 import zdjecie from "./assets/images/Zdjęcie (1).png";
 import star from "./assets/images/star-full-icon.png";
+import meal1 from './assets/images/Zdjęcie (7).png';
+import meal2 from './assets/images/Zdjęcie (8).png';
+import meal3 from './assets/images/Zdjęcie (9).png';
+import meal4 from './assets/images/Zdjęcie (10).png';
+import meal5 from './assets/images/Zdjęcie (11).png';
+import meal6 from './assets/images/Zdjęcie (12).png';
+import meal7 from './assets/images/Zdjęcie (15).png';
+import meal8 from './assets/images/Zdjęcie (17).png';
 
 function HomePage() {
     return (
       <section className="center-container-main">
         <div className="web-image"></div>
-        <div className="offers">
-          <div className="offer">
-            <h2 className="offers-title">NOWOŚCI</h2>
-            <div className="text-n-image">
-              <img src={pinkpizza} alt=""/>
-              <div className="offer-text">
-                <h3>PINK PIZZA</h3>
-                <p>
-                  wyjątkowa pizza na różowym cieście, bogato obłożona świeżymi składnikami i unikalnym sosem truskawkowym – spróbuj już dziś!
-                </p>
-              </div>
+        <h1 className="offers-title">ZŁAP OKAZJE TYGODNIA!</h1>
+        <div className='offers-box'>
+          <div className="offers">
+            <div className="offer">
+              <img src={offer4} alt="" />
             </div>
-          </div>
-          <div className="offer">
-            <h2 className="offers-title">SUPER PROMOCJE</h2>
-            <div className="text-n-image">
-              <img src={jakaspizza} alt=""/>
-              <div className="offer-text">
-                <h3>3 W cenie 2</h3>
-                <p>
-                  Z przyjemnością informujemy, że 
-                  od 01.08 do 14.08 mamy super promocję na pyszne.pl
-                  Kup dwie duże pizze a małą 
-                </p>
-              </div>
+            <div className="offer">
+              <img src={offer2} alt="" />
+            </div>
+            <div className="offer">
+              <img src={offer1} alt="" />
+            </div>
+            <div className="offer">
+              <img src={offer3} alt="" />
             </div>
           </div>
         </div>
@@ -59,14 +54,26 @@ function HomePage() {
               <div className="meal">
                 <img src={meal1} alt=""/>
               </div>
-              <div className="meal">
+              <div className="meal meal-hom3">
                 <img src={meal2} alt=""/>
               </div>
               <div className="meal">
                 <img src={meal3} alt=""/>
               </div>
-              <div className="meal">
+              <div className="meal meal-hom2">
                 <img src={meal4} alt=""/>
+              </div>
+              <div className="meal meal-hom2">
+                <img src={meal5} alt=""/>
+              </div>
+              <div className="meal">
+                <img src={meal6} alt=""/>
+              </div>
+              <div className="meal meal-hom1">
+                <img src={meal7} alt=""/>
+              </div>
+              <div className="meal meal-hom1">
+                <img src={meal8} alt=""/>
               </div>
             </div>
           </div>
