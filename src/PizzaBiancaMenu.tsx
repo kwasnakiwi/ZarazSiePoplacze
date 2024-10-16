@@ -6,7 +6,7 @@ function PizzaBiancaMenu() {
         <div className="menu-top">
         <h1 className="menu-title">Uno Momento Menu:</h1>
         <div className="menu-nav-btns">
-          <Link to='/menu/przystawki' className="menu-btn">PRZYSTAWKI</Link>
+          <Link to='/menu/przystawki' className="menu-btn">PRZYSTAWKI I SAŁATKI</Link>
           <Link to='/menu/pizzarossa' className="menu-btn">PIZZA ROSSA</Link>
           <Link to='/menu/pizzabianca' className="menu-btn" id="orange">PIZZA BIANCA</Link>
           <Link to='/menu/pizzawege' className="menu-btn">PIZZA WEGE</Link>

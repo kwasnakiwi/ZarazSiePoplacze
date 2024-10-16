@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
-function PrzystawkiMenu() {
+function PrzystawkiISalatki() {
     return(
       <section className="menu-container center-container">
         <div className="menu-top">
         <h1 className="menu-title">Uno Momento Menu:</h1>
         <div className="menu-nav-btns">
-          <Link to='/menu/przystawki' className="menu-btn" id="orange">PRZYSTAWKI</Link>
+          <Link to='/menu/przystawki' className="menu-btn" id="orange">PRZYSTAWKI I SAŁATKI</Link>
           <Link to='/menu/pizzarossa' className="menu-btn">PIZZA ROSSA</Link>
           <Link to='/menu/pizzabianca' className="menu-btn">PIZZA BIANCA</Link>
           <Link to='/menu/pizzawege' className="menu-btn">PIZZA WEGE</Link>
@@ -66,6 +66,58 @@ function PrzystawkiMenu() {
             </div>
             <hr className="menu-item-line"/>
           </div>
+          <div className="menu-items-title-box">
+            <h2 className="menu-items-title">Sałatki</h2>
+            <hr className="menu-items-title-line" id='menu-line1'/>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.1. Proste Uno</h3>
+              <h4 className="menu-item-price">43zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              (mix sałat, szynka parmeńska, grillowany ser halloumi, oliwki zielone, pornidorki koktajlowe, starty parmezan, oliwa z oliwek)
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.2. Tuńczykowe love</h3>
+              <h4 className="menu-item-price">43zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              (tuńczyk w kawałkach, papryka czerwona, kukurydza, ogórek konserwowy, mix sałat, musztarda, szczypiorek, oliwa z oliwek)
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.3. Lazurowy melon</h3>
+              <h4 className="menu-item-price">40zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              (roszponka, ser lazur, melon, szynka parmeńska, awokado, granat, oliwa z oliwek)
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.4. Mini Mozzarella</h3>
+              <h4 className="menu-item-price">39zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              (mix sałat, pomidorki koktajlowe, czarne oliwki, mini mozzarella, słonecznik łuskany, pomidory suszone, oliwa z oliwek) 
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
         </div>
       </section>
     )
@@ -105,4 +157,4 @@ function PrzystawkiMenu() {
               <p className="menu-item-description">szynka parmeńska, melon cantalouepe, sos balsamiczny, miód wielokwiatowy</p>
               <h4 className="menu-item-price">32zł</h4> */}
 }
-export default PrzystawkiMenu
+export default PrzystawkiISalatki

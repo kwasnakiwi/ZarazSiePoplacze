@@ -73,6 +73,7 @@ ul{
 .navbar2-h3{
   margin: 0;
   font-family: Saira Condensed;
+  font-size: 25px;
   font-weight: 400;
   color: white;
 }
@@ -374,15 +375,19 @@ a{
 }
 .menu-btn{
   font-family: Roboto Slab;
-  font-size: 37px;
+  font-size: 32px;
   font-weight: 700;
   text-align: center;
-  padding: 20px;
+  padding: 0;
   background-color: black;
   margin: 20px;
   border-radius: 10px;
   align-items: center;
   transition: 0.5s;
+  height: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menu-btn:hover{
   color: rgb(202, 132, 1);

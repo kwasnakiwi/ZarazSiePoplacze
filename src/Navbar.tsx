@@ -14,7 +14,8 @@ function Navbar() {
             <li className="navbar-line"><Link to='/contact'>KONTAKT</Link></li>
             <li className="navbar-line"><h3 className="under-nav">tel. 577 886 999<br/>
             uno.momentodg@gmail.com</h3></li>
-            <li className='navbar-line'><div className='fbigicons'><img src={ig}/><img src={fb}/></div></li>
+            <li className='navbar-line'><div className='fbigicons'><a href='https://www.instagram.com/uno.momento.pizza?igsh=Z3NyZGN6OWJrNmtu'><img src={ig}/></a>
+            <a href='https://www.facebook.com/momento.unorestaurant'><img src={fb}/></a></div></li>
         </ul>
 
         </div>
@@ -35,7 +36,8 @@ function Navbar() {
 }
 }><svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
 </a></li>
-    <li className='navbar-line hideOnMobile'><div className='fbigicons'><img src={ig}/><img src={fb}/></div></li>
+    <li className='navbar-line hideOnMobile'><a href='https://www.instagram.com/uno.momento.pizza?igsh=Z3NyZGN6OWJrNmtu'><img src={ig}/></a>
+    <a href='https://www.facebook.com/momento.unorestaurant'><img src={fb}/></a></li>
           
           </ul>
         </div>
@@ -59,8 +61,8 @@ function Navbar() {
   </div>
   <div className='under-nav4'>
     <div className='fbigicons2'>
-      <img src={ig}/>
-      <img src={fb}/>
+    <a href='https://www.instagram.com/uno.momento.pizza?igsh=Z3NyZGN6OWJrNmtu'><img src={ig}/></a>
+    <a href='https://www.facebook.com/momento.unorestaurant'><img src={fb}/></a>
     </div>
   </div>
 </div>

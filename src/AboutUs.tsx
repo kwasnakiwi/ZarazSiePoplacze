@@ -2,7 +2,7 @@ import zdjecielokalu from "./assets/images/Zdjęcie (6).png";
 
 
 function AboutUs() {
-    return <section className="center-container-main">
+    return <section className="center-container-main center-container">
       <div className="about-title-box">
         <h1 className="about-title">Witaj w Pizzerii Uno Momento – Twoje miejsce na prawdziwą, kulinarną ucztę!</h1>
       </div>

@@ -34,60 +34,48 @@ function Contact() {
         wszystko, co musisz wiedzieć o naszej pizzerii!</h2>
         <div className="faq">
           <button className="accordion accordion1">
-            1.Lorem ipsum dolor sit amet consectetur.
+          1. Czy na terenie obiektu dostępny jest parking?
             <i className="fa-solid fa-chevron-down"></i>
           </button>
           <div className="pannel">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Ultrices magnis morbi sagittis neque varius ut. Adipiscing tortor sit ridiculus porttitor vitae fermentum.
+            Tak, przed budynkiem znajduje się darmowy parking.
             </p>
           </div>
           <hr className="line"/>
         </div>
         <div className="faq">
           <button className="accordion">
-            2.Lorem ipsum dolor sit amet consectetur.
+          2. Czy akceptujecie zwierzęta?
             <i className="fa-solid fa-chevron-down"></i>
           </button>
           <div className="pannel">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Ultrices magnis morbi sagittis neque varius ut. Adipiscing tortor sit ridiculus porttitor vitae fermentum.
+            Tak, czworonogi na smyczy są u nas zawsze mile widziane 😊
             </p>
           </div>
           <hr className="line"/>
         </div>
         <div className="faq">
           <button className="accordion">
-            3.Lorem ipsum dolor sit amet consectetur.
+          3. Jakie metody płatności są akceptowane w lokalu?
             <i className="fa-solid fa-chevron-down"></i>
           </button>
           <div className="pannel">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Ultrices magnis morbi sagittis neque varius ut. Adipiscing tortor sit ridiculus porttitor vitae fermentum.
+            Akceptujemy płatności gotówkowe, karty kredytowe i debetowe oraz płatności mobilne (BLIK).
             </p>
           </div>
           <hr className="line"/>
         </div>
         <div className="faq">
           <button className="accordion">
-            4.Lorem ipsum dolor sit amet consectetur.
+          4. Czy organizujecie imprezy prywatne?
             <i className="fa-solid fa-chevron-down"></i>
           </button>
           <div className="pannel">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Ultrices magnis morbi sagittis neque varius ut. Adipiscing tortor sit ridiculus porttitor vitae fermentum.
-            </p>
-          </div>
-          <hr className="line"/>
-        </div>
-        <div className="faq">
-          <button className="accordion">
-            5.Lorem ipsum dolor sit amet consectetur.
-            <i className="fa-solid fa-chevron-down arrow"></i>
-          </button>
-          <div className="pannel">
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Ultrices magnis morbi sagittis neque varius ut. Adipiscing tortor sit ridiculus porttitor vitae fermentum.
+            Tak, oferujemy organizację imprez na wyłączność. W celu uzyskania szczegółowych informacji prosimy o kontakt.
             </p>
           </div>
           <hr className="line"/>

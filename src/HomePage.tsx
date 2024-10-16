@@ -40,7 +40,7 @@ function HomePage() {
           <div className="meet-us-line">
             <img src={zdjecie}/>
             <div className="meet-us-text">
-              <h3>Ludzie i Miejsce, które Pokochasz</h3>
+              <h3>Ludzie i Miejsce, które pokochasz</h3>
               <p>
                 Uno Momento to miejsce, gdzie pasja do włoskiej kuchni spotyka się z rodzinną atmosferą. Nasz przytulny lokal to idealne miejsce na spotkania przy wyśmienitej pizzy, przygotowanej według tradycyjnych receptur. Zajrzyj do nas, poczuj smak prawdziwej Italii i daj się oczarować wyjątkowym klimatem naszego wnętrza.
               </p>
