@@ -1,8 +1,8 @@
 
-import offer1 from './assets/images/Kolka.png';
-import offer2 from './assets/images/Sałatki.png';
-import offer3 from './assets/images/Pizza (1).png';
-import offer4 from './assets/images/Sosy.png';
+import offer1 from './assets/images/Rectangle 157.png';
+import offer2 from './assets/images/Rectangle 156.png';
+import offer3 from './assets/images/Rectangle 159.png';
+import offer4 from './assets/images/Rectangle 153.png';
 import zdjecie from "./assets/images/Zdjęcie (1).png";
 import star from "./assets/images/star-full-icon.png";
 import meal1 from './assets/images/Zdjęcie (7).png';
@@ -23,15 +23,38 @@ function HomePage() {
           <div className="offers">
             <div className="offer">
               <img src={offer4} alt="" />
+
             </div>
             <div className="offer">
               <img src={offer2} alt="" />
+
             </div>
             <div className="offer">
               <img src={offer1} alt="" />
+
             </div>
             <div className="offer">
               <img src={offer3} alt="" />
+
+            </div>
+            <div className='textes'>
+              <div id="text1">
+                <h2>Poniedziałek:</h2>
+                <h1>2 sosy gratis!</h1>
+              </div>
+              <div id="text2">
+                <h2>Wtorek:</h2>
+                <h1>Sałatki 20%<br/>taniej!</h1>
+              </div>
+              <div id="text3">
+                <h2>Środa:</h2>
+                <h1>Coca-Cola <br/>0,5L GRATIS!</h1>
+              </div>
+              <div id="text4">
+                <h2>Czwartek:</h2>
+                <h1>Każda druga<br/>
+                pizza 50% <br/>taniej!</h1>
+              </div>
             </div>
           </div>
         </div>

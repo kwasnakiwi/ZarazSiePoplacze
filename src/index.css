@@ -192,6 +192,7 @@ ul{
 .offer{
   text-align: center;
 }
+
 .offers-box{
   margin: 0 7%;
 }
@@ -200,8 +201,51 @@ ul{
   gap: 10px;
   align-items: center;
 }
-
-
+.textes {
+  color: white;
+}
+.textes h1{
+  font-family: Roboto Slab;
+  font-size: 60px;
+  font-weight: 800;
+  text-shadow: 
+    -1.3px -1.3px 0 #000,  
+    1.3px -1.3px 0 #000,
+    -1.3px 1.3px 0 #000,
+    1.3px 1.3px 0 #000;
+}
+.textes h2{
+  font-family: Roboto Slab;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  text-shadow: 
+  -0.7px -0.7px 0 #000,  
+  0.7px -0.7px 0 #000,
+  -0.7px 0.7px 0 #000,
+  0.7px 0.7px 0 #000;
+}
+.textes div{
+  width: 530px;
+}
+#text1{
+  transform: 
+  translateY(-820px);
+  margin-left: 15%;
+}
+#text2{
+  transform: 
+  translateY(-1074px);
+  margin-left: 115%;
+}
+#text3{
+  transform: translateY(-975px);
+  margin-left: 15%;
+}
+#text4{
+  transform: translateY(-1300px);
+  margin-left: 115%;
+}
 .title{
   font-family: Tinos;
   font-size: 55px;
@@ -740,9 +784,7 @@ a{
   .offers-title{
       margin: 40px auto;
   }
-  .offers{
-      gap: 50px
-  }
+
   .offer-text p{
       text-align: center;
   }
@@ -778,6 +820,32 @@ a{
   .offer img{
     width: 400px;
   }
+  .textes h1{
+    font-size: 42px;
+  }
+  .textes h2{
+    font-size: 28px;
+  }
+  #text1{
+    transform: translateY(-580px);
+    margin-left: 20%;
+  }
+  #text2{
+    transform: translateY(-755px);
+    margin-left: 120%;
+  }
+  #text3{
+    transform: translateY(-670px);
+    margin-left: 20%;
+  }
+  #text4{
+    transform: translateY(-900px);
+    margin-left: 120%;
+  }
+  .text h1{
+    font-size: 40px;
+
+}
 }
 @media (max-width: 1480px){
   .meet-us-line{
@@ -869,6 +937,23 @@ a{
   .offers{
       display: block;
   }
+  #text1{
+    transform: translateY(-1100px);
+    margin-left: 32%;
+  }
+  #text2{
+    margin-left: 32%;
+    transform: translateY(-1000px);
+  }
+  #text3{
+    margin-left: 32%;
+    transform: translateY(-940px);
+  }
+  #text4{
+    margin-left: 32%;
+    transform: translateY(-880px);
+  }
+  
 
 
 }
@@ -1031,6 +1116,25 @@ a{
   .offer img{
       width: 285px;
   }
+  #text1{
+    transform: translateY(-790px);
+  }
+  #text2{
+    transform: translateY(-720px);
+    
+  }
+  #text3{
+    transform: translateY(-670px);
+  }
+  #text4{
+    transform: translateY(-655px);
+  }
+  .textes h1{
+    font-size: 30px;
+  }
+  .textes h2{
+    font-size: 25px;
+  }
   .image1{
     width: 400px;
     height: 270px;
@@ -1114,6 +1218,10 @@ a{
   .meet-us-text p{
       font-size: 20px;
   }
+  #text1, #text2, #text3, #text4{
+    margin-left: 25%;
+  }
+
 
 }
 @media (max-width: 476px) {
@@ -1165,6 +1273,24 @@ a{
   }
   .meet-us-line img{
       width: 200px;
+  }
+  .textes h1{
+    font-size: 22px;
+  }
+  .textes h2{
+    font-size: 20px;
+  }
+  #text1{
+    transform: translateY(-570px);
+  }
+  #text2{
+    transform: translateY(-535px);
+  }
+  #text3{
+    transform: translateY(-505px);
+  }
+  #text4{
+    transform: translateY(-490px);
   }
 
 
