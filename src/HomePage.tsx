@@ -77,25 +77,25 @@ function HomePage() {
               <div className="meal">
                 <img src={meal1} alt=""/>
               </div>
-              <div className="meal meal-hom3">
+              <div className="meal">
                 <img src={meal2} alt=""/>
               </div>
               <div className="meal">
                 <img src={meal3} alt=""/>
               </div>
-              <div className="meal meal-hom2">
+              <div className="meal">
                 <img src={meal4} alt=""/>
               </div>
-              <div className="meal meal-hom2">
+              <div className="meal">
                 <img  src={meal5} alt=""/>
               </div>
               <div className="meal">
                 <img src={meal6} alt=""/>
               </div>
-              <div className="meal meal-hom1">
+              <div className="meal">
                 <img src={meal7} alt=""/>
               </div>
-              <div className="meal meal-hom1">
+              <div className="meal">
                 <img src={meal8} alt=""/>
               </div>
             </div>
