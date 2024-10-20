@@ -177,6 +177,10 @@ ul{
   background-size: cover;
   background-position: center;
 }
+.meal img{
+  height: 300px;
+  width: 300px;
+}
 .offers-title{
   font-family: Tinos;
   font-size: 65px;
@@ -274,7 +278,13 @@ ul{
 .meet-us-line img{
   width: 400px;
 }
-
+.meet-us{
+  margin-top: -1300px;
+}
+#pizza-zdj{
+  width: 300px;
+  height: 313px;
+}
 .meals{
   display: grid;
   grid-template-columns: 285px 285px 285px 285px;
@@ -820,6 +830,9 @@ a{
   .offer img{
     width: 400px;
   }
+  .meet-us{
+    margin-top: -900px;
+  }
   .textes h1{
     font-size: 42px;
   }
@@ -1116,6 +1129,9 @@ a{
   .offer img{
       width: 285px;
   }
+  .meet-us{
+    margin-top: -680px;
+  }
   #text1{
     transform: translateY(-790px);
   }
@@ -1143,6 +1159,7 @@ a{
 @media (max-width: 630px){
   .meal img{
     width: 200px;
+    height: 200px;
   }
   .meals{
     grid-template-columns: 185px 185px;
@@ -1270,6 +1287,9 @@ a{
 @media (max-width: 390px){
   .offer img{
       width: 200px;
+  }
+  .meet-us{
+    margin-top: -500px;
   }
   .meet-us-line img{
       width: 200px;

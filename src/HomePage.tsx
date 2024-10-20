@@ -5,14 +5,14 @@ import offer3 from './assets/images/Rectangle 159.png';
 import offer4 from './assets/images/Rectangle 153.png';
 import zdjecie from "./assets/images/Zdjęcie (1).png";
 import star from "./assets/images/star-full-icon.png";
-import meal1 from './assets/images/Zdjęcie (7).png';
-import meal2 from './assets/images/Zdjęcie (8).png';
-import meal3 from './assets/images/Zdjęcie (9).png';
-import meal4 from './assets/images/Zdjęcie (10).png';
-import meal5 from './assets/images/Zdjęcie (11).png';
-import meal6 from './assets/images/Zdjęcie (12).png';
-import meal7 from './assets/images/Zdjęcie (15).png';
-import meal8 from './assets/images/Zdjęcie (17).png';
+import meal1 from './assets/images/1.png';
+import meal2 from './assets/images/2.png';
+import meal3 from './assets/images/pizza.jpg';
+import meal4 from './assets/images/4.png';
+import meal5 from './assets/images/herbata.jpg';
+import meal6 from './assets/images/6.png';
+import meal7 from './assets/images/pizza2.jpg';
+import meal8 from './assets/images/8.png';
 
 function HomePage() {
     return (
@@ -87,7 +87,7 @@ function HomePage() {
                 <img src={meal4} alt=""/>
               </div>
               <div className="meal meal-hom2">
-                <img src={meal5} alt=""/>
+                <img  src={meal5} alt=""/>
               </div>
               <div className="meal">
                 <img src={meal6} alt=""/>
