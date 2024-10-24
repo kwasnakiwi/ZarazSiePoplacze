@@ -15,11 +15,10 @@ ul{
 
 }
 .menu-container{
-  background-image: url(/src/assets/images/menu-bg.png);
+  background-image: url(/src/assets/images/tło.png);
   margin-left: 260px;
   background-attachment: fixed;
   background-color: rgba(244, 237, 228, 0.95);
-  
 
 }
 .center-container-main{
@@ -991,7 +990,7 @@ a{
     max-width: 300px;
   }
   .offer img{
-    width: 550px;
+    width: 600px;
   }
   .offers{
     display: block;
@@ -1003,16 +1002,16 @@ a{
   max-width: 400px;
 }
 #text1{
-  transform: translateY(-1480px);
+  transform: translateY(-1610px);
   margin-left: 27%;
 }
 #text2{
   margin-left: 27%;
-  transform: translateY(-1350px);
+  transform: translateY(-1440px);
 }
 #text3{
   margin-left: 27%;
-  transform: translateY(-1250px);
+  transform: translateY(-1300px);
 }
 #text4{
   margin-left: 27%;
@@ -1185,7 +1184,7 @@ a{
     max-width: 300px;
   }
   .offer img{
-    width: 400px;
+    width: 450px;
   }
   .offers{
     display: block;
@@ -1194,20 +1193,20 @@ a{
   max-width: 400px;
 }
 #text1{
-  transform: translateY(-1090px);
+  transform: translateY(-1210px);
   margin-left: 27%;
 }
 #text2{
   margin-left: 27%;
-  transform: translateY(-1000px);
+  transform: translateY(-1090px);
 }
 #text3{
   margin-left: 27%;
-  transform: translateY(-930px);
+  transform: translateY(-980px);
 }
 #text4{
   margin-left: 27%;
-  transform: translateY(-880px);
+  transform: translateY(-890px);
 }
   .image1{
     width: 400px;
@@ -1317,6 +1316,39 @@ a{
     font-size: 40px;
   }
 }
+@media (max-width: 470px) {
+  .offer img{
+    width: 350px;
+}
+
+.textes h1{
+  font-size: 32px;
+}
+.textes h2{
+  font-size: 25px;
+}
+#text1{
+  transform: translateY(-950px);
+}
+#text2{
+  transform: translateY(-835px);
+}
+#text3{
+  transform: translateY(-780px);
+}
+#text4{
+  transform: translateY(-710px);
+}
+#text4 h2{
+  margin-bottom: 10px;
+}
+#text4 h1{
+  margin-top: 0;
+}
+.meet-us{
+  margin-top: -700px;
+}
+}
 @media (max-width: 450px){
 
 
@@ -1336,42 +1368,7 @@ a{
   }
 
 }
-@media (max-width: 420px) {
-  .offer img{
-    width: 300px;
-}
-.meet-us{
-  margin-top: -500px;
-}
 
-.textes h1{
-  font-size: 32px;
-}
-.textes h2{
-  font-size: 25px;
-}
-#text1{
-  transform: translateY(-820px);
-}
-#text2{
-  transform: translateY(-755px);
-}
-#text3{
-  transform: translateY(-715px);
-}
-#text4{
-  transform: translateY(-690px);
-}
-#text4 h2{
-  margin-bottom: 10px;
-}
-#text4 h1{
-  margin-top: 0;
-}
-.meet-us{
-  margin-top: -700px;
-}
-}
 @media (max-width: 400px){
   .opening-hours-line{
       font-size: 20px;
@@ -1395,6 +1392,21 @@ a{
   .navbar3 a,
   .navbar3-h3{
     font-size: 20px;
+  }
+  #text1{
+    transform: translateY(-850px);
+  }
+  #text2{
+    transform: translateY(-755px);
+  }
+  #text3{
+    transform: translateY(-720px);
+  }
+  #text4{
+    transform: translateY(-690px);
+  }
+  .offer img{
+    width: 300px;
   }
 }
 @media (max-width: 350px){
