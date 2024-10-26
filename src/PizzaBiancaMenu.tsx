@@ -34,26 +34,26 @@ function PizzaBiancaMenu() {
           </div>
           <div className="menu-item">
             <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.2. Tuna Love</h3>
-              <h4 className="menu-item-price">32cm - 51zł / 40cm - 55zł</h4>
-            </div>
-            <div className="menu-item-bottom">
-              <p className="menu-item-desc">
-              sos bianca, ser mozzarella, 
-              po wypieku - moradella z pistacjami, pesto pistacjowe i ser buffala, kruszone pistacje
-              </p>
-            </div>
-            <hr className="menu-item-line"/>
-          </div>
-          <div className="menu-item">
-            <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.3. Ala Carbonara</h3>
+              <h3 className="menu-item-name">NO.2. Ala Carbonara</h3>
               <h4 className="menu-item-price">32cm - 44zł / 40cm - 52zł</h4>
             </div>
             <div className="menu-item-bottom">
               <p className="menu-item-desc">
               sos bianca, ser mozzarella, 
               boczek, cebula czerwona, puree czosnkowe, świeża bazylia, parmezan, pieprz młotkowany
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.3. Tunalove</h3>
+              <h4 className="menu-item-price">32cm - 51zł / 40cm - 55zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              sos bianca, ser mozzarella, 
+              po wypieku - moradella z pistacjami, pesto pistacjowe i ser buffala, kruszone pistacje
               </p>
             </div>
             <hr className="menu-item-line"/>

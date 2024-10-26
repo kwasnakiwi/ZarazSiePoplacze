@@ -44,12 +44,12 @@ function PrzystawkiISalatki() {
           </div>
           <div className="menu-item">
             <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.3. Deska wędlin</h3>
-              <h4 className="menu-item-price">99zł</h4>
+              <h3 className="menu-item-name">NO.3. Ceprese</h3>
+              <h4 className="menu-item-price">26zł</h4>
             </div>
             <div className="menu-item-bottom">
               <p className="menu-item-desc">
-              mortadella z pistacjami, szynka parmeńska, salami spinata piccante, salami Napoli, mini mozzarella, oliwki, miód
+              pomidorki koktajlowe, mozzarella, listki bazylii, oliwa, sos balsamiczny
               </p>
             </div>
             <hr className="menu-item-line"/>
@@ -66,6 +66,18 @@ function PrzystawkiISalatki() {
             </div>
             <hr className="menu-item-line"/>
           </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.5. Deska wędlin</h3>
+              <h4 className="menu-item-price">99zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              mortadella z pistacjami, szynka parmeńska, salami spinata piccante, salami Napoli, mini mozzarella, oliwki, miód
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
           <div className="menu-items-title-box">
             <h2 className="menu-items-title">Sałatki</h2>
             <hr className="menu-items-title-line" id='menu-line1'/>
@@ -77,7 +89,7 @@ function PrzystawkiISalatki() {
             </div>
             <div className="menu-item-bottom">
               <p className="menu-item-desc">
-              (mix sałat, szynka parmeńska, grillowany ser halloumi, oliwki zielone, pornidorki koktajlowe, starty parmezan, oliwa z oliwek)
+              mix sałat, szynka parmeńska, grillowany ser halloumi, oliwki zielone, pornidorki koktajlowe, starty parmezan, oliwa z oliwek
               </p>
             </div>
             <hr className="menu-item-line"/>
@@ -89,7 +101,7 @@ function PrzystawkiISalatki() {
             </div>
             <div className="menu-item-bottom">
               <p className="menu-item-desc">
-              (tuńczyk w kawałkach, papryka czerwona, kukurydza, ogórek konserwowy, mix sałat, musztarda, szczypiorek, oliwa z oliwek)
+              tuńczyk w kawałkach, papryka czerwona, kukurydza, ogórek konserwowy, mix sałat, musztarda, szczypiorek, oliwa z oliwek
               </p>
             </div>
             <hr className="menu-item-line"/>
@@ -101,7 +113,7 @@ function PrzystawkiISalatki() {
             </div>
             <div className="menu-item-bottom">
               <p className="menu-item-desc">
-              (roszponka, ser lazur, melon, szynka parmeńska, awokado, granat, oliwa z oliwek)
+              roszponka, ser lazur, melon, szynka parmeńska, awokado, granat, oliwa z oliwek
               </p>
             </div>
             <hr className="menu-item-line"/>
@@ -113,7 +125,7 @@ function PrzystawkiISalatki() {
             </div>
             <div className="menu-item-bottom">
               <p className="menu-item-desc">
-              (mix sałat, pomidorki koktajlowe, czarne oliwki, mini mozzarella, słonecznik łuskany, pomidory suszone, oliwa z oliwek) 
+              mix sałat, pomidorki koktajlowe, czarne oliwki, mini mozzarella, słonecznik łuskany, pomidory suszone, oliwa z oliwek 
               </p>
             </div>
             <hr className="menu-item-line"/>

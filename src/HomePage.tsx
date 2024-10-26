@@ -13,9 +13,18 @@ import meal5 from './assets/images/herbata.jpg';
 import meal6 from './assets/images/6.png';
 import meal7 from './assets/images/pizza2.jpg';
 import meal8 from './assets/images/8.png';
+import { Helmet } from 'react-helmet-async';
 
 function HomePage() {
-    return (
+    return (<>
+      <Helmet>
+        <title>Uno Momento – Najlepsza Pizzeria w Mieście | Poczuj Smak Włoch</title>
+        <meta name='description'
+        content='Zapraszamy do Uno Momento! Odkryj autentyczne włoskie pizze, 
+        przygotowywane na świeżo z najlepszych składników. Idealne miejsce na wieczór 
+        z przyjaciółmi lub romantyczną kolację. Skosztuj naszych wyjątkowych smaków 
+        i poczuj się jak we Włoszech!' />
+      </Helmet>
       <section className="center-container-main">
         <div className="web-image"></div>
         <h1 className="offers-title">ZŁAP OKAZJE TYGODNIA!</h1>
@@ -119,6 +128,7 @@ function HomePage() {
           </div>
         </div>
       </section>
+      </>
     );
 }
 

@@ -21,7 +21,7 @@ function SpecialPizzaMenu() {
         </div>
         <div className="menu-item">
           <div className="menu-item-top">
-            <h3 className="menu-item-name">NO.1. Salsiccia Con Papatate</h3>
+            <h3 className="menu-item-name">NO.1. Pablo Diablo</h3>``
             <h4 className="menu-item-price">32cm - 44zł</h4>
           </div>
           <div className="menu-item-bottom">
@@ -33,31 +33,7 @@ function SpecialPizzaMenu() {
         </div>
         <div className="menu-item">
           <div className="menu-item-top">
-            <h3 className="menu-item-name">NO.2. Salsiccia Speciale</h3>
-            <h4 className="menu-item-price">32cm - 45zł</h4>
-          </div>
-          <div className="menu-item-bottom">
-            <p className="menu-item-desc">
-            sos pomidorowy, ser mozzarella, kiełbaska salsiccia, cukinia, po wypieku - pomidory suszone w oleju
-            </p>
-          </div>
-          <hr className="menu-item-line"/>
-        </div>
-        <div className="menu-item">
-          <div className="menu-item-top">
-            <h3 className="menu-item-name">NO.3. Burratinka</h3>
-            <h4 className="menu-item-price">32cm - 46zł</h4>
-          </div>
-          <div className="menu-item-bottom">
-            <p className="menu-item-desc">
-            sos pomidorowy, bazylia, pomidorki pelati, burrata, pesto bazyliowe, oliwa z oliwek
-            </p>
-          </div>
-          <hr className="menu-item-line"/>
-        </div>
-        <div className="menu-item">
-          <div className="menu-item-top">
-            <h3 className="menu-item-name">NO.4. Jestę Burakiem</h3>
+            <h3 className="menu-item-name">NO.2. Jestę Burakiem</h3>
             <h4 className="menu-item-price">32cm - 45zł</h4>
           </div>
           <div className="menu-item-bottom">
@@ -69,7 +45,19 @@ function SpecialPizzaMenu() {
         </div>
         <div className="menu-item">
           <div className="menu-item-top">
-            <h3 className="menu-item-name">NO.5. Wiejka Przygoda</h3>
+            <h3 className="menu-item-name">NO.3. Salsiccia Speciale</h3>
+            <h4 className="menu-item-price">32cm - 45zł</h4>
+          </div>
+          <div className="menu-item-bottom">
+            <p className="menu-item-desc">
+            sos pomidorowy, ser mozzarella, kiełbaska salsiccia, cukinia, po wypieku - pomidory suszone w oleju
+            </p>
+          </div>
+          <hr className="menu-item-line"/>
+        </div>
+        <div className="menu-item">
+          <div className="menu-item-top">
+            <h3 className="menu-item-name">NO.4. Wiejka Przygoda</h3>
             <h4 className="menu-item-price">32cm - 47zł</h4>
           </div>
           <div className="menu-item-bottom">
@@ -81,8 +69,21 @@ function SpecialPizzaMenu() {
         </div>
         <div className="menu-item">
           <div className="menu-item-top">
+            <h3 className="menu-item-name">NO.5. Burratinka</h3>
+            <h4 className="menu-item-price">32cm - 46zł</h4>
+          </div>
+          <div className="menu-item-bottom">
+            <p className="menu-item-desc">
+            sos pomidorowy, bazylia, pomidorki pelati, burrata, pesto bazyliowe, oliwa z oliwek
+            </p>
+          </div>
+          <hr className="menu-item-line"/>
+        </div>
+
+        <div className="menu-item">
+          <div className="menu-item-top">
             <h3 className="menu-item-name">NO.6. Orzeszkowelove</h3>
-            <h4 className="menu-item-price">32cm - 44zł / 40cm - 52zł</h4>
+            <h4 className="menu-item-price">32cm - 44zł</h4>
           </div>
           <div className="menu-item-bottom">
             <p className="menu-item-desc">
@@ -93,12 +94,52 @@ function SpecialPizzaMenu() {
         </div>
         <div className="menu-item">
           <div className="menu-item-top">
-            <h3 className="menu-item-name">NO.7. Sosy</h3>
+            <h3 className="menu-item-name">Sosy</h3>
             <h4 className="menu-item-price">4zł</h4>
           </div>
           <div className="menu-item-bottom">
             <p className="menu-item-desc">
             pomidorowy łagodny | pikantny, czosnkowy, bazyliowy, sriracha, słodkie chilli, carolina reaper
+            </p>
+          </div>
+          <hr className="menu-item-line"/>
+        </div>
+        <div className="menu-items-title-box">
+          <h2 className="menu-items-title">Pizza dla Dzieci</h2>
+          <hr className="menu-items-title-line" id="menu-line1"/>
+        </div>
+        <div className="menu-item">
+          <div className="menu-item-top">
+            <h3 className="menu-item-name">NO.1. Margherita</h3>
+            <h4 className="menu-item-price">24cm - 22zł</h4>
+          </div>
+          <div className="menu-item-bottom">
+            <p className="menu-item-desc">
+            sos pomidorowy, ser mozzarella
+            </p>
+          </div>
+          <hr className="menu-item-line"/>
+        </div>
+        <div className="menu-item">
+          <div className="menu-item-top">
+            <h3 className="menu-item-name">NO.2. Szynkozaur</h3>
+            <h4 className="menu-item-price">24cm - 23zł</h4>
+          </div>
+          <div className="menu-item-bottom">
+            <p className="menu-item-desc">
+            sos pomidorowy, ser mozzarella, szynka Cotto, kukurydza
+            </p>
+          </div>
+          <hr className="menu-item-line"/>
+        </div>
+        <div className="menu-item">
+          <div className="menu-item-top">
+            <h3 className="menu-item-name">NO.3. Salomomiś</h3>
+            <h4 className="menu-item-price">24cm - 23zł</h4>
+          </div>
+          <div className="menu-item-bottom">
+            <p className="menu-item-desc">
+            sos pomidorowy, ser mozzarella, salami Napoli
             </p>
           </div>
           <hr className="menu-item-line"/>

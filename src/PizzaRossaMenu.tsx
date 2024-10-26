@@ -33,55 +33,7 @@ function PizzaRossaMenu() {
           </div>
           <div className="menu-item">
             <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.2. Prosciutto Cotto</h3>
-              <h4 className="menu-item-price">32cm - 40zł / 40cm - 48zł</h4>
-            </div>
-            <div className="menu-item-bottom">
-              <p className="menu-item-desc">
-              sos pomidorowy, ser mozzarella, Prosciutto Cotto, pieczarki, oliwa extra virgin
-              </p>
-            </div>
-            <hr className="menu-item-line"/>
-          </div>
-          <div className="menu-item">
-            <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.3. Diavola</h3>
-              <h4 className="menu-item-price">32cm - 44zł / 40cm - 52złł</h4>
-            </div>
-            <div className="menu-item-bottom">
-              <p className="menu-item-desc">
-              sos pomidorowy, ser mozzarella, salami spianata piccante, oliwki, cebula, papryczki jalapeno, oliwa extra virgin
-              </p>
-            </div>
-            <hr className="menu-item-line"/>
-          </div>
-          <div className="menu-item">
-            <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.4. Pancetta E Panna</h3>
-              <h4 className="menu-item-price">32cm - 45zł / 40cm - 53zł</h4>
-            </div>
-            <div className="menu-item-bottom">
-              <p className="menu-item-desc">
-              sos pomidorowy, ser mozzarella, pancetta Arrotolata, Po wypieku sos bianco, świeży koperek, papryka słodka
-              </p>
-            </div>
-            <hr className="menu-item-line"/>
-          </div>
-          <div className="menu-item">
-            <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.5. Cztery Sery Nasze Bohatery</h3>
-              <h4 className="menu-item-price">32cm - 45zł / 40cm - 53zł</h4>
-            </div>
-            <div className="menu-item-bottom">
-              <p className="menu-item-desc">
-              sos pomidorowy, ser mozzarella, gorgonzola, feta, riccota
-              </p>
-            </div>
-            <hr className="menu-item-line"/>
-          </div>
-          <div className="menu-item">
-            <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.6. Salame</h3>
+              <h3 className="menu-item-name">NO.2. Salame</h3>
               <h4 className="menu-item-price">32cm - 38zł / 40cm - 46zł</h4>
             </div>
             <div className="menu-item-bottom">
@@ -93,7 +45,19 @@ function PizzaRossaMenu() {
           </div>
           <div className="menu-item">
             <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.7. Parma</h3>
+              <h3 className="menu-item-name">NO.3. Prosciutto Cotto</h3>
+              <h4 className="menu-item-price">32cm - 40zł / 40cm - 48zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              sos pomidorowy, ser mozzarella, Prosciutto Cotto, pieczarki, oliwa extra virgin
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.4. Parma</h3>
               <h4 className="menu-item-price">32cm - 44zł / 40cm - 52zł</h4>
             </div>
             <div className="menu-item-bottom">
@@ -105,7 +69,19 @@ function PizzaRossaMenu() {
           </div>
           <div className="menu-item">
             <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.8. Hawajska Igraszka</h3>
+              <h3 className="menu-item-name">NO.5. Diavola</h3>
+              <h4 className="menu-item-price">32cm - 44zł / 40cm - 52zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              sos pomidorowy, ser mozzarella, salami spianata piccante, oliwki, cebula, papryczki jalapeno, oliwa extra virgin
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.6. Hawajska Igraszka</h3>
               <h4 className="menu-item-price">32cm - 44zł / 40cm - 52zł</h4>
             </div>
             <div className="menu-item-bottom">
@@ -117,7 +93,19 @@ function PizzaRossaMenu() {
           </div>
           <div className="menu-item">
             <div className="menu-item-top">
-              <h3 className="menu-item-name">NO.9. Uno Momento</h3>
+              <h3 className="menu-item-name">NO.7. Pancetta E Panna</h3>
+              <h4 className="menu-item-price">32cm - 45zł / 40cm - 53zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              sos pomidorowy, ser mozzarella, pancetta Arrotolata, Po wypieku sos bianco, świeży koperek, papryka słodka
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.8. Uno Momento</h3>
               <h4 className="menu-item-price">32cm - 45zł / 40cm - 53zł</h4>
             </div>
             <div className="menu-item-bottom">
@@ -127,6 +115,19 @@ function PizzaRossaMenu() {
             </div>
             <hr className="menu-item-line"/>
           </div>
+          <div className="menu-item">
+            <div className="menu-item-top">
+              <h3 className="menu-item-name">NO.9. Cztery Sery Nasze Bohatery</h3>
+              <h4 className="menu-item-price">32cm - 45zł / 40cm - 53zł</h4>
+            </div>
+            <div className="menu-item-bottom">
+              <p className="menu-item-desc">
+              sos pomidorowy, ser mozzarella, gorgonzola, feta, riccota
+              </p>
+            </div>
+            <hr className="menu-item-line"/>
+          </div>
+
           <div className="menu-item">
             <div className="menu-item-top">
               <h3 className="menu-item-name">NO.10. Ludziska! Salsiccia</h3>
