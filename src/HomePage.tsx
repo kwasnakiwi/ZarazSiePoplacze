@@ -18,12 +18,11 @@ import { Helmet } from 'react-helmet-async';
 function HomePage() {
     return (<>
       <Helmet>
-        <title>Uno Momento – Najlepsza Pizzeria w Mieście | Poczuj Smak Włoch</title>
+        <title>Pizzeria Uno Momento </title>
         <meta name='description'
         content='Zapraszamy do Uno Momento! Odkryj autentyczne włoskie pizze, 
         przygotowywane na świeżo z najlepszych składników. Idealne miejsce na wieczór 
-        z przyjaciółmi lub romantyczną kolację. Skosztuj naszych wyjątkowych smaków 
-        i poczuj się jak we Włoszech!' />
+        z przyjaciółmi lub romantyczną kolację. Skosztuj naszych wyjątkowych smaków!' />
       </Helmet>
       <section className="center-container-main">
         <div className="web-image"></div>
